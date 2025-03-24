@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://yyjssug5oxa1"]
+
+[ext_resource type="Script" uid="uid://flr4q102n06m" path="res://scripts/morte.gd" id="1_d55n4"]
+
+[node name="morte" type="Area2D"]
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_d55n4")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

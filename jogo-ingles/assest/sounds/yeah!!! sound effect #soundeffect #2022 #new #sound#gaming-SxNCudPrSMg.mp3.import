@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cyxeooilgp61q"
+path="res://.godot/imported/yeah!!! sound effect #soundeffect #2022 #new #sound#gaming-SxNCudPrSMg.mp3-f54fc5ee346c6809612a76ea0c527e31.mp3str"
+
+[deps]
+
+source_file="res://assest/sounds/yeah!!! sound effect #soundeffect #2022 #new #sound#gaming-SxNCudPrSMg.mp3"
+dest_files=["res://.godot/imported/yeah!!! sound effect #soundeffect #2022 #new #sound#gaming-SxNCudPrSMg.mp3-f54fc5ee346c6809612a76ea0c527e31.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
