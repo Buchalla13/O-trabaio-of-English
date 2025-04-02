@@ -1,0 +1,9 @@
+res://scenas/game.tscn
+res://scripts/morte.gd
+res://scripts/sprite correto.gd
+res://scripts/correto.gd
+res://scenas/player.tscn
+res://scripts/player.gd
+res://scripts/explosao_som.gd
+res://scripts/label.gd
+res://scripts/sprite errado.gd

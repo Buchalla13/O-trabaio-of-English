@@ -8,7 +8,7 @@ func _ready() -> void:
 	else:
 		self.position.x= 80
 func _physics_process(delta: float) -> void:
-	velocidade+=0.007
+	velocidade+=0.005
 	self.position.y+=velocidade
 
 func _on_body_entered(body: Node2D) -> void:

@@ -1,9 +1,10 @@
-[gd_scene load_steps=44 format=3 uid="uid://dedbc4lpav0od"]
+[gd_scene load_steps=45 format=3 uid="uid://dedbc4lpav0od"]
 
 [ext_resource type="Script" uid="uid://dmh7wydmxbosf" path="res://scripts/player.gd" id="1_xnvex"]
 [ext_resource type="Texture2D" uid="uid://tubs24r14ho7" path="res://assest/sprites/knight.png" id="2_esmah"]
 [ext_resource type="Texture2D" uid="uid://4jsqxmkcx14j" path="res://assest/sprites/explosão.png" id="3_esmah"]
 [ext_resource type="AudioStream" uid="uid://bjg1cuv7swhty" path="res://assest/sounds/explosao.mp3" id="4_6ar2e"]
+[ext_resource type="Script" uid="uid://uqyv33p8ib75" path="res://scripts/explosao_som.gd" id="5_ft8kh"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xnvex"]
 atlas = ExtResource("2_esmah")
@@ -306,5 +307,7 @@ shape = SubResource("CapsuleShape2D_xe6fa")
 [node name="explosao som" type="AudioStreamPlayer2D" parent="."]
 position = Vector2(0, 3)
 stream = ExtResource("4_6ar2e")
+script = ExtResource("5_ft8kh")
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="Timer" to="explosao som" method="timer_timeout"]
