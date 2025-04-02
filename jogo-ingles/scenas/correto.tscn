@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://wpnjubv05vmf"]
 
-[ext_resource type="Script" path="res://scripts/correto.gd" id="1_ggvc7"]
+[ext_resource type="Script" uid="uid://7iq5nnxn5gaq" path="res://scripts/correto.gd" id="1_ggvc7"]
 
 [node name="correto" type="Area2D"]
 script = ExtResource("1_ggvc7")

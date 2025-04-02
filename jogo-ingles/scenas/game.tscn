@@ -1,17 +1,17 @@
-[gd_scene load_steps=20 format=3 uid="uid://2o2akoeodvro"]
+[gd_scene load_steps=22 format=3 uid="uid://2o2akoeodvro"]
 
 [ext_resource type="Texture2D" uid="uid://c1lgxlal23004" path="res://assest/sprites/ceu.jpeg" id="1_qvojc"]
 [ext_resource type="PackedScene" uid="uid://dedbc4lpav0od" path="res://scenas/player.tscn" id="1_veeud"]
-[ext_resource type="Script" path="res://scripts/game.gd" id="1_w1l1h"]
+[ext_resource type="Script" uid="uid://duwihygsdgtcw" path="res://scripts/game.gd" id="1_w1l1h"]
 [ext_resource type="Texture2D" uid="uid://bymlux8dqcmcp" path="res://assest/sprites/world_tileset.png" id="2_m0amx"]
 [ext_resource type="PackedScene" uid="uid://wpnjubv05vmf" path="res://scenas/correto.tscn" id="3_dj6nm"]
 [ext_resource type="PackedScene" uid="uid://yyjssug5oxa1" path="res://scenas/morte.tscn" id="3_qgp70"]
-[ext_resource type="Script" path="res://scripts/label.gd" id="4_jdyi3"]
+[ext_resource type="Script" uid="uid://bqvyjjo6r8qbq" path="res://scripts/label.gd" id="4_jdyi3"]
 [ext_resource type="Texture2D" uid="uid://dkmdaoh6jr3mk" path="res://assest/sprites/crazycat.png" id="5_24sbj"]
 [ext_resource type="Texture2D" uid="uid://1311pceflcg6" path="res://assest/sprites/dog.jpeg" id="6_24sbj"]
 [ext_resource type="Texture2D" uid="uid://cku4k77hgs4rd" path="res://assest/sprites/truck.webp" id="7_rwxnv"]
 [ext_resource type="AudioStream" uid="uid://nt3hafpxurgc" path="res://assest/music/time_for_adventure.mp3" id="7_sqltc"]
-[ext_resource type="Script" path="res://scenas/animated_sprite_2d.gd" id="8_tkumk"]
+[ext_resource type="Script" uid="uid://clbfyjmw70pr5" path="res://scripts/sprite correto.gd" id="8_tkumk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qvojc"]
 texture = ExtResource("2_m0amx")
@@ -196,11 +196,17 @@ animations = [{
 "speed": 1.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nnble"]
+size = Vector2(137, 47)
+
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_m0amx"]
 normal = Vector2(1, 0)
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_qvojc"]
 normal = Vector2(-0.999769, 0.0215004)
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_nnble"]
+normal = Vector2(0.520787, -0.853687)
 
 [node name="game" type="Node2D"]
 script = ExtResource("1_w1l1h")
@@ -239,7 +245,7 @@ horizontal_alignment = 1
 script = ExtResource("4_jdyi3")
 
 [node name="morte1" parent="." instance=ExtResource("3_qgp70")]
-position = Vector2(-129, -198)
+position = Vector2(-129, -196)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="morte1"]
 position = Vector2(-2, 0)
@@ -251,15 +257,20 @@ scale = Vector2(0.0405076, 0.0115674)
 texture = ExtResource("6_24sbj")
 
 [node name="correto1" parent="." instance=ExtResource("3_dj6nm")]
-position = Vector2(81, -198)
+position = Vector2(130, -201)
 
 [node name="sprite" type="AnimatedSprite2D" parent="correto1"]
-position = Vector2(42, 2.00001)
+position = Vector2(42, 1.99999)
 scale = Vector2(0.182065, 0.0448028)
 sprite_frames = SubResource("SpriteFrames_jdyi3")
 animation = &"lista"
-frame_progress = 0.283649
+frame = 1
+frame_progress = 0.277387
 script = ExtResource("8_tkumk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="correto1"]
+position = Vector2(-2.5, 1.5)
+shape = SubResource("RectangleShape2D_nnble")
 
 [node name="player" parent="." instance=ExtResource("1_veeud")]
 position = Vector2(0, -38)
@@ -268,17 +279,17 @@ position = Vector2(0, -38)
 position = Vector2(-1, -63)
 zoom = Vector2(3, 3)
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
+[node name="parede esquerda" type="StaticBody2D" parent="."]
 position = Vector2(-113, -71)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="parede esquerda"]
 position = Vector2(-75, 1)
 shape = SubResource("WorldBoundaryShape2D_m0amx")
 
-[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+[node name="parede direita" type="StaticBody2D" parent="."]
 position = Vector2(192, -61)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="parede direita"]
 position = Vector2(-1, 0)
 shape = SubResource("WorldBoundaryShape2D_qvojc")
 
@@ -286,3 +297,15 @@ shape = SubResource("WorldBoundaryShape2D_qvojc")
 stream = ExtResource("7_sqltc")
 volume_db = -4.685
 autoplay = true
+
+[node name="submundo" type="StaticBody2D" parent="."]
+position = Vector2(-1, 103)
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="submundo"]
+rotation = -0.547772
+shape = SubResource("WorldBoundaryShape2D_nnble")
+
+[connection signal="body_entered" from="correto1" to="." method="_on_correto_1_body_entered"]
+[connection signal="body_entered" from="correto1" to="correto1" method="_on_body_entered"]

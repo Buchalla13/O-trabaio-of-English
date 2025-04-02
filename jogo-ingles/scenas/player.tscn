@@ -1,6 +1,6 @@
 [gd_scene load_steps=44 format=3 uid="uid://dedbc4lpav0od"]
 
-[ext_resource type="Script" path="res://scripts/player.gd" id="1_xnvex"]
+[ext_resource type="Script" uid="uid://dmh7wydmxbosf" path="res://scripts/player.gd" id="1_xnvex"]
 [ext_resource type="Texture2D" uid="uid://tubs24r14ho7" path="res://assest/sprites/knight.png" id="2_esmah"]
 [ext_resource type="Texture2D" uid="uid://4jsqxmkcx14j" path="res://assest/sprites/explosão.png" id="3_esmah"]
 [ext_resource type="AudioStream" uid="uid://bjg1cuv7swhty" path="res://assest/sounds/explosao.mp3" id="4_6ar2e"]

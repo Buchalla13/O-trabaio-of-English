@@ -1,4 +1,4 @@
-class_name player
+class_name jogador
 extends CharacterBody2D
 var morto=false
 const SPEED = 150.0
