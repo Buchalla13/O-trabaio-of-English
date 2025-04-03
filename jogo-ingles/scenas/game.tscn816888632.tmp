@@ -277,13 +277,13 @@ position = Vector2(-2, 0)
 shape = SubResource("RectangleShape2D_sqltc")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="morte1"]
-position = Vector2(-1.49998, -0.5)
-scale = Vector2(0.0403333, 0.010699)
+position = Vector2(-2.5, -0.999999)
+scale = Vector2(0.041, 0.0109368)
 sprite_frames = SubResource("SpriteFrames_tkumk")
 script = ExtResource("8_h7ksu")
 
 [node name="correto1" parent="." instance=ExtResource("3_dj6nm")]
-position = Vector2(131, -201)
+position = Vector2(130, -201)
 
 [node name="sprite" type="AnimatedSprite2D" parent="correto1"]
 position = Vector2(42, 1.99999)
@@ -338,4 +338,3 @@ shape = SubResource("WorldBoundaryShape2D_nnble")
 [connection signal="body_entered" from="correto1" to="." method="_on_correto_1_body_entered"]
 [connection signal="body_entered" from="correto1" to="correto1" method="_on_body_entered"]
 [connection signal="body_entered" from="correto1" to="correto1/sprite" method="_on_correto_1_body_entered"]
-[connection signal="body_exited" from="correto1" to="correto1/sprite" method="_on_correto_1_body_exited"]

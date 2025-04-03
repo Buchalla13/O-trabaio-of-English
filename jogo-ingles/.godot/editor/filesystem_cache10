@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1743620910
+::res://::1743646368
 export_presets.cfg::TextFile/TextFile::-1::1743619690::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::7450242720794410119::1743619690::1743619732::1::::<><><>0<>0<>1ea2458cfd710cc9053e0373d2ade162<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://assest/::1743619690
@@ -28,30 +28,30 @@ slime_green.png::CompressedTexture2D/CompressedTexture2D::7890580321740611197::1
 slime_purple.png::CompressedTexture2D/CompressedTexture2D::5202618133662196629::1743619690::1743619732::1::::<><><>0<>0<>2d24fbc659e61a160b5585518d92444f<>res://.godot/imported/slime_purple.png-1a35c9546edb8e8628586f44b5d3d209.ctex::
 truck.jpeg::CompressedTexture2D/CompressedTexture2D::579724637235087163::1743619690::1743619733::1::::<><><>0<>0<>813dd5b6f287476590e4aba9e97107d8<>res://.godot/imported/truck.jpeg-42af42ba32224943ac92e895db07a172.ctex::
 world_tileset.png::CompressedTexture2D/CompressedTexture2D::4096430326026503859::1743619690::1743619732::1::::<><><>0<>0<>d11555281caf2a26691b26bfb7d17eb9<>res://.godot/imported/world_tileset.png-a395f607780bdaa4d57458b7460ab2d0.ctex::
-::res://assest/sprites/certos/::1743622468
+::res://assest/sprites/certos/::1743622470
 crazycat.png::CompressedTexture2D/CompressedTexture2D::7886105919048402762::1743619690::1743620893::1::::<><><>0<>0<>4e145b16fd4cf97ff3148ccb261771c1<>res://.godot/imported/crazycat.png-5c3b997b904322ed2e8f6421ffda2b0b.ctex::
-fulecoKKKKKKKKKK.jpg::CompressedTexture2D::1299342323722657532::1743622468::1743622470::1::::<><><>0<>0<>c2c7b937be31c5817b18a98cd57411a9<>res://.godot/imported/fulecoKKKKKKKKKK.jpg-88efc0bfa1f9a481fe32f5e6eed4ed2e.ctex::
-ronaldinho.jpeg::CompressedTexture2D::3347066581813126761::1743621497::1743621514::1::::<><><>0<>0<>7ff2448c451dcb86c1c3a70fa5ce55c1<>res://.godot/imported/ronaldinho.jpeg-5c66063d794c4d714200f68219b4d709.ctex::
-tiger.jpg::CompressedTexture2D::2832986915094839187::1743621173::1743621175::1::::<><><>0<>0<>1e3189a4c2ecd2d7674d04eef313b4a2<>res://.godot/imported/tiger.jpg-c94d85635db0f769e74f6c561632ae5a.ctex::
-truck.webp::CompressedTexture2D::5517797740084751369::1743619690::1743620910::1::::<><><>0<>0<>f195d45bb6ee25ec8474d45ece8f197a<>res://.godot/imported/truck.webp-329430967c6fa11af4070922717cf075.ctex::
+fulecoKKKKKKKKKK.jpg::CompressedTexture2D/CompressedTexture2D::1299342323722657532::1743622468::1743622470::1::::<><><>0<>0<>c2c7b937be31c5817b18a98cd57411a9<>res://.godot/imported/fulecoKKKKKKKKKK.jpg-88efc0bfa1f9a481fe32f5e6eed4ed2e.ctex::
+ronaldinho.jpeg::CompressedTexture2D/CompressedTexture2D::3347066581813126761::1743621497::1743621514::1::::<><><>0<>0<>7ff2448c451dcb86c1c3a70fa5ce55c1<>res://.godot/imported/ronaldinho.jpeg-5c66063d794c4d714200f68219b4d709.ctex::
+tiger.jpg::CompressedTexture2D/CompressedTexture2D::2832986915094839187::1743621173::1743621175::1::::<><><>0<>0<>1e3189a4c2ecd2d7674d04eef313b4a2<>res://.godot/imported/tiger.jpg-c94d85635db0f769e74f6c561632ae5a.ctex::
+truck.webp::CompressedTexture2D/CompressedTexture2D::5517797740084751369::1743619690::1743620910::1::::<><><>0<>0<>f195d45bb6ee25ec8474d45ece8f197a<>res://.godot/imported/truck.webp-329430967c6fa11af4070922717cf075.ctex::
 ::res://assest/sprites/errados/::1743622099
 dog.jpeg::CompressedTexture2D/CompressedTexture2D::1884338375284690331::1743619690::1743620903::1::::<><><>0<>0<>e42220e03956bb06e15857456875e555<>res://.godot/imported/dog.jpeg-fe2fc242b4d4e1f5e19381229de71ec9.ctex::
-rato.jpg::CompressedTexture2D::3852597667148591737::1743622097::1743622099::1::::<><><>0<>0<>3eada47b03107d79bfa59cfceadbc50f<>res://.godot/imported/rato.jpg-a2a58e80afeb11697adde0702aed8264.ctex::
-::res://scenas/::1743622410
+rato.jpg::CompressedTexture2D/CompressedTexture2D::3852597667148591737::1743622097::1743622099::1::::<><><>0<>0<>3eada47b03107d79bfa59cfceadbc50f<>res://.godot/imported/rato.jpg-a2a58e80afeb11697adde0702aed8264.ctex::
+::res://scenas/::1743623090
 animated_sprite_2d.gd::GDScript/GDScript::5547329961467314852::1743619691::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
 correto.tscn::PackedScene/PackedScene::1575926672399280593::1743619691::0::1::::<><><>0<>0<><>::uid://7iq5nnxn5gaq::::res://scripts/correto.gd
-game.tscn::PackedScene::1925639972649762204::1743622410::0::1::::<><><>0<>0<><>::uid://c1lgxlal23004::::res://assest/sprites/ceu.jpeg<>uid://dedbc4lpav0od::::res://scenas/player.tscn<>uid://duwihygsdgtcw::::res://scripts/game.gd<>uid://bymlux8dqcmcp::::res://assest/sprites/world_tileset.png<>uid://wpnjubv05vmf::::res://scenas/correto.tscn<>uid://yyjssug5oxa1::::res://scenas/morte.tscn<>uid://bqvyjjo6r8qbq::::res://scripts/label.gd<>uid://dkmdaoh6jr3mk::::res://assest/sprites/certos/crazycat.png<>uid://1311pceflcg6::::res://assest/sprites/errados/dog.jpeg<>uid://bu5hyrev4w44l::::res://assest/sprites/errados/rato.jpg<>uid://nt3hafpxurgc::::res://assest/music/time_for_adventure.mp3<>uid://b752qxrjp52es::::res://scripts/sprite errado.gd<>uid://clbfyjmw70pr5::::res://scripts/sprite correto.gd<>uid://bgmk467ufx06j::::res://assest/sprites/certos/tiger.jpg<>uid://bnxlxyocrsvqv::::res://assest/sprites/certos/ronaldinho.jpeg
+game.tscn::PackedScene::1925639972649762204::1743623090::0::1::::<><><>0<>0<><>::uid://c1lgxlal23004::::res://assest/sprites/ceu.jpeg<>uid://dedbc4lpav0od::::res://scenas/player.tscn<>uid://duwihygsdgtcw::::res://scripts/game.gd<>uid://bymlux8dqcmcp::::res://assest/sprites/world_tileset.png<>uid://wpnjubv05vmf::::res://scenas/correto.tscn<>uid://yyjssug5oxa1::::res://scenas/morte.tscn<>uid://bqvyjjo6r8qbq::::res://scripts/label.gd<>uid://dkmdaoh6jr3mk::::res://assest/sprites/certos/crazycat.png<>uid://1311pceflcg6::::res://assest/sprites/errados/dog.jpeg<>uid://bu5hyrev4w44l::::res://assest/sprites/errados/rato.jpg<>uid://nt3hafpxurgc::::res://assest/music/time_for_adventure.mp3<>uid://b752qxrjp52es::::res://scripts/sprite errado.gd<>uid://clbfyjmw70pr5::::res://scripts/sprite correto.gd<>uid://bgmk467ufx06j::::res://assest/sprites/certos/tiger.jpg<>uid://bnxlxyocrsvqv::::res://assest/sprites/certos/ronaldinho.jpeg<>uid://srn8i3thhe0s::::res://assest/sprites/certos/fulecoKKKKKKKKKK.jpg
 morte.tscn::PackedScene/PackedScene::1734656887265068550::1743619691::0::1::::<><><>0<>0<><>::uid://flr4q102n06m::::res://scripts/morte.gd
-player.tscn::PackedScene::7446276388326577163::1743621063::0::1::::<><><>0<>0<><>::uid://dmh7wydmxbosf::::res://scripts/player.gd<>uid://tubs24r14ho7::::res://assest/sprites/knight.png<>uid://4jsqxmkcx14j::::res://assest/sprites/explosão.png<>uid://bjg1cuv7swhty::::res://assest/sounds/explosao.mp3<>uid://uqyv33p8ib75::::res://scripts/explosao_som.gd
-::res://scripts/::1743622358
+player.tscn::PackedScene/PackedScene::7446276388326577163::1743621063::0::1::::<><><>0<>0<><>::uid://dmh7wydmxbosf::::res://scripts/player.gd<>uid://tubs24r14ho7::::res://assest/sprites/knight.png<>uid://4jsqxmkcx14j::::res://assest/sprites/explosão.png<>uid://bjg1cuv7swhty::::res://assest/sounds/explosao.mp3<>uid://uqyv33p8ib75::::res://scripts/explosao_som.gd
+::res://scripts/::1743622598
 audio_stream_player.gd::GDScript/GDScript::8529098336227474654::1743619691::0::1::::<>AudioStreamPlayer<><>0<>0<><>::
 correto.gd::GDScript/GDScript::2263583768100507272::1743620289::0::1::::<>Area2D<><>0<>0<><>::
 explosao_som.gd::GDScript/GDScript::1438303140958276882::1743620568::0::1::::<>AudioStreamPlayer2D<><>0<>0<><>::
 game.gd::GDScript/GDScript::8608954741580066374::1743619691::0::1::::<>Node2D<><>0<>0<><>::
-label.gd::GDScript::3554267890478358250::1743621553::0::1::::<>Label<><>0<>0<><>::
+label.gd::GDScript/GDScript::3554267890478358250::1743622491::0::1::::<>Label<><>0<>0<><>::
 morte.gd::GDScript/GDScript::374737232096116038::1743620892::0::1::::<>Area2D<><>0<>0<><>::
 player.gd::GDScript/GDScript::8017962316019378393::1743620463::0::1::::jogador<>CharacterBody2D<><>0<>0<><>::
-sprite errado.gd::GDScript::4696064178968006214::1743622358::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
-sprite correto.gd::GDScript::5547329961467314852::1743621899::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
+sprite correto.gd::GDScript/GDScript::5547329961467314852::1743622598::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
+sprite errado.gd::GDScript/GDScript::4696064178968006214::1743622358::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
 sprite.gd::GDScript/GDScript::5838149593036987288::1743619691::0::1::::<>RefCounted<><>0<>0<><>::
 sprite_2d.gd::GDScript/GDScript::5838149593036987288::1743619691::0::1::::<>RefCounted<><>0<>0<><>::
