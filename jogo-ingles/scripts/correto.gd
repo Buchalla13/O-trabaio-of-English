@@ -1,6 +1,5 @@
 extends Area2D
 @onready var morte =$"../morte1"
-var velocidade = 0
 func inicio():
 	if morte.esquerdaOuDireita>0:
 		self.position.x= -180
@@ -9,8 +8,7 @@ func inicio():
 func _ready() -> void:
 	inicio()
 func _physics_process(delta: float) -> void:
-	velocidade+=0.005
-	self.position.y+=velocidade
+	self.position.y=morte.position.y
 	inicio()
 
 func _on_body_entered(body: Node2D) -> void:

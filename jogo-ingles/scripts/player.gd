@@ -1,7 +1,7 @@
 class_name jogador
 extends CharacterBody2D
 var morto=false
-const SPEED = 150.0
+const SPEED = 300.0
 const JUMP_VELOCITY = -200.0
 @onready var timer = $Timer
 @onready var animatedSprite = $AnimatedSprite2D
