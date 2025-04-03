@@ -1,8 +1,9 @@
-[gd_scene load_steps=27 format=3 uid="uid://2o2akoeodvro"]
+[gd_scene load_steps=30 format=3 uid="uid://2o2akoeodvro"]
 
 [ext_resource type="Texture2D" uid="uid://c1lgxlal23004" path="res://assest/sprites/ceu.jpeg" id="1_qvojc"]
 [ext_resource type="PackedScene" uid="uid://dedbc4lpav0od" path="res://scenas/player.tscn" id="1_veeud"]
 [ext_resource type="Script" uid="uid://duwihygsdgtcw" path="res://scripts/game.gd" id="1_w1l1h"]
+[ext_resource type="Script" uid="uid://cddi8yegxuepq" path="res://scripts/tela game over.gd" id="2_d2iy5"]
 [ext_resource type="Texture2D" uid="uid://bymlux8dqcmcp" path="res://assest/sprites/world_tileset.png" id="2_m0amx"]
 [ext_resource type="PackedScene" uid="uid://wpnjubv05vmf" path="res://scenas/correto.tscn" id="3_dj6nm"]
 [ext_resource type="PackedScene" uid="uid://yyjssug5oxa1" path="res://scenas/morte.tscn" id="3_qgp70"]
@@ -229,6 +230,14 @@ normal = Vector2(1, 0)
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_qvojc"]
 normal = Vector2(-0.999769, 0.0215004)
 
+[sub_resource type="SystemFont" id="SystemFont_d2iy5"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_by186"]
+font = SubResource("SystemFont_d2iy5")
+font_size = 64
+outline_size = 11
+outline_color = Color(0.197937, 0.197937, 0.197937, 1)
+
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_nnble"]
 normal = Vector2(0.520787, -0.853687)
 
@@ -255,7 +264,7 @@ position = Vector2(-2, 0)
 shape = SubResource("RectangleShape2D_sqltc")
 
 [node name="Polygon2D" type="Polygon2D" parent="muro"]
-color = Color(0.264582, 0.871716, 0.929979, 1)
+color = Color(1, 0.153463, 0.0855266, 1)
 polygon = PackedVector2Array(-63, -24, 59, -24, 59, 24, -63, 24)
 
 [node name="Label" type="Label" parent="muro"]
@@ -266,7 +275,7 @@ offset_bottom = 22.0
 text = "CAT"
 label_settings = SubResource("LabelSettings_sqltc")
 horizontal_alignment = 1
-text_overrun_behavior = 1
+clip_text = true
 script = ExtResource("4_jdyi3")
 
 [node name="morte1" parent="." instance=ExtResource("3_qgp70")]
@@ -324,6 +333,25 @@ stream = ExtResource("7_sqltc")
 volume_db = -4.685
 autoplay = true
 
+[node name="tela game over" type="Polygon2D" parent="."]
+position = Vector2(0, -104)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-220, -126, 235, -126, 235, 210, -256, 211)
+script = ExtResource("2_d2iy5")
+
+[node name="Timer" type="Timer" parent="tela game over"]
+wait_time = 3.0
+
+[node name="Label" type="Label" parent="tela game over"]
+offset_left = -216.0
+offset_top = -47.0
+offset_right = 223.0
+offset_bottom = 106.0
+text = "GAME OVER!"
+label_settings = SubResource("LabelSettings_by186")
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="submundo" type="StaticBody2D" parent="."]
 position = Vector2(-1, 103)
 collision_layer = 3
@@ -334,8 +362,11 @@ rotation = -0.547772
 shape = SubResource("WorldBoundaryShape2D_nnble")
 
 [connection signal="body_entered" from="muro" to="muro/Label" method="_on_muro_body_entered"]
+[connection signal="body_entered" from="muro" to="tela game over" method="_on_muro_body_entered"]
 [connection signal="body_entered" from="morte1" to="morte1/AnimatedSprite2D" method="_on_morte_1_body_entered"]
+[connection signal="body_entered" from="morte1" to="tela game over" method="_on_morte_1_body_entered"]
 [connection signal="body_entered" from="correto1" to="." method="_on_correto_1_body_entered"]
 [connection signal="body_entered" from="correto1" to="correto1" method="_on_body_entered"]
 [connection signal="body_entered" from="correto1" to="correto1/sprite" method="_on_correto_1_body_entered"]
 [connection signal="body_exited" from="correto1" to="correto1/sprite" method="_on_correto_1_body_exited"]
+[connection signal="timeout" from="tela game over/Timer" to="tela game over" method="_on_timer_timeout"]
