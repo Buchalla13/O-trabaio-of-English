@@ -1,4 +1,4 @@
-[gd_scene load_steps=30 format=3 uid="uid://2o2akoeodvro"]
+[gd_scene load_steps=51 format=3 uid="uid://2o2akoeodvro"]
 
 [ext_resource type="Texture2D" uid="uid://c1lgxlal23004" path="res://assest/sprites/ceu.jpeg" id="1_qvojc"]
 [ext_resource type="PackedScene" uid="uid://dedbc4lpav0od" path="res://scenas/player.tscn" id="1_veeud"]
@@ -13,10 +13,31 @@
 [ext_resource type="Texture2D" uid="uid://bu5hyrev4w44l" path="res://assest/sprites/errados/rato.jpg" id="7_f2lkw"]
 [ext_resource type="AudioStream" uid="uid://nt3hafpxurgc" path="res://assest/music/time_for_adventure.mp3" id="7_sqltc"]
 [ext_resource type="Script" uid="uid://b752qxrjp52es" path="res://scripts/sprite errado.gd" id="8_h7ksu"]
+[ext_resource type="Texture2D" uid="uid://b38qdf5njakpr" path="res://assest/sprites/errados/alvin.jpg" id="8_syefu"]
 [ext_resource type="Script" uid="uid://clbfyjmw70pr5" path="res://scripts/sprite correto.gd" id="8_tkumk"]
+[ext_resource type="Texture2D" uid="uid://b035fp4lbyyig" path="res://assest/sprites/errados/atacadão telhas.jpg" id="9_43i87"]
 [ext_resource type="Texture2D" uid="uid://bgmk467ufx06j" path="res://assest/sprites/certos/tiger.jpg" id="9_nnble"]
 [ext_resource type="Texture2D" uid="uid://bnxlxyocrsvqv" path="res://assest/sprites/certos/ronaldinho.jpeg" id="10_48e1a"]
+[ext_resource type="Texture2D" uid="uid://cwfx4gf22hq34" path="res://assest/sprites/errados/blu_bird.jpg" id="10_qv1lc"]
+[ext_resource type="Texture2D" uid="uid://bxedj3m2rynng" path="res://assest/sprites/errados/bombardilo crocodilo.jpg" id="11_5o77h"]
+[ext_resource type="Texture2D" uid="uid://cxp6fu0hil1ao" path="res://assest/sprites/errados/burro do sherek.jpg" id="12_0cinb"]
 [ext_resource type="Texture2D" uid="uid://srn8i3thhe0s" path="res://assest/sprites/certos/fulecoKKKKKKKKKK.jpg" id="13_h7ksu"]
+[ext_resource type="Texture2D" uid="uid://d0hfc43y3yg7e" path="res://assest/sprites/errados/cavaloooo.jpg" id="13_xm4n3"]
+[ext_resource type="Texture2D" uid="uid://c57xcld5cmrv1" path="res://assest/sprites/errados/dory.jpg" id="14_5mmel"]
+[ext_resource type="Texture2D" uid="uid://ba0f6d6v0n5hp" path="res://assest/sprites/errados/el pablo hetero top.jpg" id="15_1amrn"]
+[ext_resource type="Texture2D" uid="uid://c5cynhqjj4ato" path="res://assest/sprites/errados/ferdinando.jpg" id="16_auo7i"]
+[ext_resource type="Texture2D" uid="uid://b1idatepvy7ew" path="res://assest/sprites/errados/goat.jpg" id="17_hr4bk"]
+[ext_resource type="Texture2D" uid="uid://c7dd7qbykosef" path="res://assest/sprites/errados/lhama.jpg" id="18_gfess"]
+[ext_resource type="Texture2D" uid="uid://dbgmhec1phgb8" path="res://assest/sprites/errados/mirilo monkey.jpg" id="19_pb5j0"]
+[ext_resource type="Texture2D" uid="uid://coy7pcgo8h8pc" path="res://assest/sprites/errados/mosquito.jpg" id="20_s5mvv"]
+[ext_resource type="Texture2D" uid="uid://ctttatatp3jt4" path="res://assest/sprites/errados/pato donald.jpg" id="21_wqkyb"]
+[ext_resource type="Texture2D" uid="uid://dyorgbdyjqmpe" path="res://assest/sprites/errados/perry_platypus.webp" id="22_0icdp"]
+[ext_resource type="Texture2D" uid="uid://d4fdtuxqvwprl" path="res://assest/sprites/errados/simba.jpg" id="23_4hu2o"]
+[ext_resource type="Texture2D" uid="uid://clgh31fg5uwgf" path="res://assest/sprites/errados/smilinguido.png" id="24_3fb00"]
+[ext_resource type="Texture2D" uid="uid://bxcjet01pg2mm" path="res://assest/sprites/errados/technoblade.jpg" id="25_fmv3q"]
+[ext_resource type="Texture2D" uid="uid://hflqikr27e7u" path="res://assest/sprites/errados/tralalero.jpg" id="26_texox"]
+[ext_resource type="Texture2D" uid="uid://bhd4vqrsitpau" path="res://assest/sprites/errados/turtles.jpg" id="27_e753n"]
+[ext_resource type="Texture2D" uid="uid://bl7evtv6d2xod" path="res://assest/sprites/errados/urso da masha.jpg" id="28_hjda7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qvojc"]
 texture = ExtResource("2_m0amx")
@@ -195,6 +216,69 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("7_f2lkw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_syefu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_43i87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_qv1lc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_5o77h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_0cinb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_xm4n3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_5mmel")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_1amrn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_auo7i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_hr4bk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_gfess")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_pb5j0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_s5mvv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_wqkyb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_0icdp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_4hu2o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_3fb00")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_fmv3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_texox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_e753n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_hjda7")
 }],
 "loop": true,
 "name": &"default",
@@ -215,6 +299,75 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("13_h7ksu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_syefu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_43i87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_qv1lc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_5o77h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_xm4n3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_0cinb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_24sbj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_5mmel")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_1amrn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_auo7i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_hr4bk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_gfess")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_pb5j0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_s5mvv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_wqkyb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_0icdp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_f2lkw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_4hu2o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_3fb00")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_fmv3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_texox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_e753n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_hjda7")
 }],
 "loop": true,
 "name": &"lista",
@@ -334,6 +487,7 @@ volume_db = -4.685
 autoplay = true
 
 [node name="tela game over" type="Polygon2D" parent="."]
+visible = false
 position = Vector2(0, -104)
 color = Color(0, 0, 0, 1)
 polygon = PackedVector2Array(-220, -126, 235, -126, 235, 210, -256, 211)

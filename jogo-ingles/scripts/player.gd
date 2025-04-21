@@ -6,6 +6,8 @@ const JUMP_VELOCITY = -200.0
 @onready var timer = $Timer
 @onready var animatedSprite = $AnimatedSprite2D
 @onready var som = $"explosao som"
+
+
 func handle_danger() -> void:
 		animatedSprite.play("morte")
 		som.play()

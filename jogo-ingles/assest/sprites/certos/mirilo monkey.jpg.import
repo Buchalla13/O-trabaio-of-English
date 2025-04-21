@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cku4k77hgs4rd"
-path="res://.godot/imported/truck.webp-329430967c6fa11af4070922717cf075.ctex"
+uid="uid://c7pwqmfde7wgk"
+path="res://.godot/imported/mirilo monkey.jpg-227253b275ad2d46bb486d27c5c8ea58.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assest/sprites/certos/truck.webp"
-dest_files=["res://.godot/imported/truck.webp-329430967c6fa11af4070922717cf075.ctex"]
+source_file="res://assest/sprites/certos/mirilo monkey.jpg"
+dest_files=["res://.godot/imported/mirilo monkey.jpg-227253b275ad2d46bb486d27c5c8ea58.ctex"]
 
 [params]
 

@@ -1,5 +1,3 @@
 res://scenas/game.tscn
-res://scripts/morte.gd
-res://scripts/tela game over.gd
-res://scenas/player.tscn
-res://scripts/player.gd
+res://scripts/sprite errado.gd
+res://scripts/texture_rect.gd
