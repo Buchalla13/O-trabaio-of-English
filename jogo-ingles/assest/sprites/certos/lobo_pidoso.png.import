@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d3beksnhx5a4i"
-valid=false
+uid="uid://klc47xooc7v8"
+path="res://.godot/imported/lobo_pidoso.png-24c9649ba226dfc38718429b3f26553d.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assest/sprites/certos/lobo_pidoso.png"
+dest_files=["res://.godot/imported/lobo_pidoso.png-24c9649ba226dfc38718429b3f26553d.ctex"]
 
 [params]
 

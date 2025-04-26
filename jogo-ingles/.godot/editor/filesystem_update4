@@ -1,3 +1,9 @@
 res://scenas/game.tscn
 res://scripts/sprite errado.gd
-res://scripts/texture_rect.gd
+res://scripts/sprite correto.gd
+res://scripts/morte.gd
+res://scripts/player.gd
+res://addons/eye_dropper/eye_dropper.gdshader
+res://game.gdshader
+res://invertido.gdshader
+res://scenas/player.tscn

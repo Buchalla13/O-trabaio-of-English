@@ -1,5 +1,6 @@
+Polygon2D
+CollisionPolygon2D
 TextureRect
 Label
 Timer
-Polygon2D
 AnimatedSprite2D

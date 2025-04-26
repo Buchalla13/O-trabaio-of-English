@@ -1,43 +1,43 @@
-[gd_scene load_steps=51 format=3 uid="uid://2o2akoeodvro"]
+[gd_scene load_steps=50 format=3 uid="uid://2o2akoeodvro"]
 
 [ext_resource type="Texture2D" uid="uid://c1lgxlal23004" path="res://assest/sprites/ceu.jpeg" id="1_qvojc"]
 [ext_resource type="PackedScene" uid="uid://dedbc4lpav0od" path="res://scenas/player.tscn" id="1_veeud"]
 [ext_resource type="Script" uid="uid://duwihygsdgtcw" path="res://scripts/game.gd" id="1_w1l1h"]
-[ext_resource type="Script" uid="uid://cddi8yegxuepq" path="res://scripts/tela game over.gd" id="2_d2iy5"]
 [ext_resource type="Texture2D" uid="uid://bymlux8dqcmcp" path="res://assest/sprites/world_tileset.png" id="2_m0amx"]
 [ext_resource type="PackedScene" uid="uid://wpnjubv05vmf" path="res://scenas/correto.tscn" id="3_dj6nm"]
 [ext_resource type="PackedScene" uid="uid://yyjssug5oxa1" path="res://scenas/morte.tscn" id="3_qgp70"]
 [ext_resource type="Script" uid="uid://bqvyjjo6r8qbq" path="res://scripts/label.gd" id="4_jdyi3"]
-[ext_resource type="Texture2D" uid="uid://dkmdaoh6jr3mk" path="res://assest/sprites/certos/crazycat.png" id="5_24sbj"]
-[ext_resource type="Texture2D" uid="uid://1311pceflcg6" path="res://assest/sprites/errados/dog.jpeg" id="6_24sbj"]
-[ext_resource type="Texture2D" uid="uid://bu5hyrev4w44l" path="res://assest/sprites/errados/rato.jpg" id="7_f2lkw"]
+[ext_resource type="Texture2D" uid="uid://b077eiifbdqm0" path="res://assest/sprites/certos/crazycat.png" id="5_24sbj"]
+[ext_resource type="Texture2D" uid="uid://q68f2e34a20b" path="res://assest/sprites/errados/dog.jpeg" id="6_24sbj"]
+[ext_resource type="Texture2D" uid="uid://cwriqxdueqg35" path="res://assest/sprites/errados/rato.jpg" id="7_f2lkw"]
 [ext_resource type="AudioStream" uid="uid://nt3hafpxurgc" path="res://assest/music/time_for_adventure.mp3" id="7_sqltc"]
 [ext_resource type="Script" uid="uid://b752qxrjp52es" path="res://scripts/sprite errado.gd" id="8_h7ksu"]
-[ext_resource type="Texture2D" uid="uid://b38qdf5njakpr" path="res://assest/sprites/errados/alvin.jpg" id="8_syefu"]
+[ext_resource type="Texture2D" uid="uid://c30c4qr1kfsjd" path="res://assest/sprites/errados/alvin.jpg" id="8_syefu"]
 [ext_resource type="Script" uid="uid://clbfyjmw70pr5" path="res://scripts/sprite correto.gd" id="8_tkumk"]
-[ext_resource type="Texture2D" uid="uid://b035fp4lbyyig" path="res://assest/sprites/errados/atacadão telhas.jpg" id="9_43i87"]
-[ext_resource type="Texture2D" uid="uid://bgmk467ufx06j" path="res://assest/sprites/certos/tiger.jpg" id="9_nnble"]
-[ext_resource type="Texture2D" uid="uid://bnxlxyocrsvqv" path="res://assest/sprites/certos/ronaldinho.jpeg" id="10_48e1a"]
-[ext_resource type="Texture2D" uid="uid://cwfx4gf22hq34" path="res://assest/sprites/errados/blu_bird.jpg" id="10_qv1lc"]
-[ext_resource type="Texture2D" uid="uid://bxedj3m2rynng" path="res://assest/sprites/errados/bombardilo crocodilo.jpg" id="11_5o77h"]
-[ext_resource type="Texture2D" uid="uid://cxp6fu0hil1ao" path="res://assest/sprites/errados/burro do sherek.jpg" id="12_0cinb"]
-[ext_resource type="Texture2D" uid="uid://srn8i3thhe0s" path="res://assest/sprites/certos/fulecoKKKKKKKKKK.jpg" id="13_h7ksu"]
-[ext_resource type="Texture2D" uid="uid://d0hfc43y3yg7e" path="res://assest/sprites/errados/cavaloooo.jpg" id="13_xm4n3"]
-[ext_resource type="Texture2D" uid="uid://c57xcld5cmrv1" path="res://assest/sprites/errados/dory.jpg" id="14_5mmel"]
-[ext_resource type="Texture2D" uid="uid://ba0f6d6v0n5hp" path="res://assest/sprites/errados/el pablo hetero top.jpg" id="15_1amrn"]
-[ext_resource type="Texture2D" uid="uid://c5cynhqjj4ato" path="res://assest/sprites/errados/ferdinando.jpg" id="16_auo7i"]
-[ext_resource type="Texture2D" uid="uid://b1idatepvy7ew" path="res://assest/sprites/errados/goat.jpg" id="17_hr4bk"]
-[ext_resource type="Texture2D" uid="uid://c7dd7qbykosef" path="res://assest/sprites/errados/lhama.jpg" id="18_gfess"]
-[ext_resource type="Texture2D" uid="uid://dbgmhec1phgb8" path="res://assest/sprites/errados/mirilo monkey.jpg" id="19_pb5j0"]
-[ext_resource type="Texture2D" uid="uid://coy7pcgo8h8pc" path="res://assest/sprites/errados/mosquito.jpg" id="20_s5mvv"]
-[ext_resource type="Texture2D" uid="uid://ctttatatp3jt4" path="res://assest/sprites/errados/pato donald.jpg" id="21_wqkyb"]
-[ext_resource type="Texture2D" uid="uid://dyorgbdyjqmpe" path="res://assest/sprites/errados/perry_platypus.webp" id="22_0icdp"]
-[ext_resource type="Texture2D" uid="uid://d4fdtuxqvwprl" path="res://assest/sprites/errados/simba.jpg" id="23_4hu2o"]
-[ext_resource type="Texture2D" uid="uid://clgh31fg5uwgf" path="res://assest/sprites/errados/smilinguido.png" id="24_3fb00"]
-[ext_resource type="Texture2D" uid="uid://bxcjet01pg2mm" path="res://assest/sprites/errados/technoblade.jpg" id="25_fmv3q"]
-[ext_resource type="Texture2D" uid="uid://hflqikr27e7u" path="res://assest/sprites/errados/tralalero.jpg" id="26_texox"]
-[ext_resource type="Texture2D" uid="uid://bhd4vqrsitpau" path="res://assest/sprites/errados/turtles.jpg" id="27_e753n"]
-[ext_resource type="Texture2D" uid="uid://bl7evtv6d2xod" path="res://assest/sprites/errados/urso da masha.jpg" id="28_hjda7"]
+[ext_resource type="Texture2D" uid="uid://bdoj0rmy7qrmy" path="res://assest/sprites/errados/atacadão telhas.jpg" id="9_43i87"]
+[ext_resource type="Texture2D" uid="uid://dpg12sui0xq1e" path="res://assest/sprites/certos/tiger.jpg" id="9_nnble"]
+[ext_resource type="Texture2D" uid="uid://deblp1shhrqec" path="res://assest/sprites/certos/ronaldinho.jpeg" id="10_48e1a"]
+[ext_resource type="Texture2D" uid="uid://xnnx2dhk6xh6" path="res://assest/sprites/errados/blu_bird.jpg" id="10_qv1lc"]
+[ext_resource type="Texture2D" uid="uid://dev6s5l7q0b4b" path="res://assest/sprites/errados/bombardilo crocodilo.jpg" id="11_5o77h"]
+[ext_resource type="Texture2D" uid="uid://to244g4y1kyj" path="res://assest/sprites/errados/burro do sherek.jpg" id="12_0cinb"]
+[ext_resource type="Texture2D" uid="uid://dq6r1jtcqt5jc" path="res://assest/sprites/certos/fulecoKKKKKKKKKK.jpg" id="13_h7ksu"]
+[ext_resource type="Texture2D" uid="uid://b78t8trl3bw2h" path="res://assest/sprites/errados/cavaloooo.jpg" id="13_xm4n3"]
+[ext_resource type="Texture2D" uid="uid://b4xnxnywatm3y" path="res://assest/sprites/errados/dory.jpg" id="14_5mmel"]
+[ext_resource type="Texture2D" uid="uid://cv23vsj0pv74x" path="res://assest/sprites/errados/el pablo hetero top.jpg" id="15_1amrn"]
+[ext_resource type="Texture2D" uid="uid://16wmblqu1avo" path="res://assest/sprites/errados/ferdinando.jpg" id="16_auo7i"]
+[ext_resource type="Texture2D" uid="uid://bh5v7twi2dx5a" path="res://assest/sprites/errados/goat.jpg" id="17_hr4bk"]
+[ext_resource type="Texture2D" uid="uid://c67k4s3irn0k2" path="res://assest/sprites/errados/lhama.jpg" id="18_gfess"]
+[ext_resource type="Texture2D" uid="uid://d1bhc4cow2fck" path="res://assest/sprites/errados/mirilo monkey.jpg" id="19_pb5j0"]
+[ext_resource type="Texture2D" uid="uid://olp5dnm83nae" path="res://assest/sprites/errados/mosquito.jpg" id="20_s5mvv"]
+[ext_resource type="Texture2D" uid="uid://pekm632jv85a" path="res://assest/sprites/errados/pato donald.jpg" id="21_wqkyb"]
+[ext_resource type="Texture2D" uid="uid://ba7c0lkkbq88e" path="res://assest/sprites/errados/perry_platypus.webp" id="22_0icdp"]
+[ext_resource type="Texture2D" uid="uid://co7e7b0ikrlhm" path="res://assest/sprites/errados/simba.jpg" id="23_4hu2o"]
+[ext_resource type="Texture2D" uid="uid://byqimmrpjkh88" path="res://assest/sprites/errados/smilinguido.png" id="24_3fb00"]
+[ext_resource type="Texture2D" uid="uid://duj52u00n5aws" path="res://assest/sprites/errados/technoblade.jpg" id="25_fmv3q"]
+[ext_resource type="Texture2D" uid="uid://0rfwrvggunfo" path="res://assest/sprites/errados/tralalero.jpg" id="26_texox"]
+[ext_resource type="Texture2D" uid="uid://cvdthrd5jy3fs" path="res://assest/sprites/errados/turtles.jpg" id="27_e753n"]
+[ext_resource type="Texture2D" uid="uid://4p3a40utiys2" path="res://assest/sprites/errados/urso da masha.jpg" id="28_hjda7"]
+[ext_resource type="Shader" uid="uid://c3w5tbt6l6jg1" path="res://invertido.gdshader" id="37_syefu"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qvojc"]
 texture = ExtResource("2_m0amx")
@@ -340,9 +340,6 @@ animations = [{
 "texture": ExtResource("19_pb5j0")
 }, {
 "duration": 1.0,
-"texture": ExtResource("20_s5mvv")
-}, {
-"duration": 1.0,
 "texture": ExtResource("21_wqkyb")
 }, {
 "duration": 1.0,
@@ -377,19 +374,14 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nnble"]
 size = Vector2(137, 47)
 
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_syefu"]
+shader = ExtResource("37_syefu")
+
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_m0amx"]
 normal = Vector2(1, 0)
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_qvojc"]
 normal = Vector2(-0.999769, 0.0215004)
-
-[sub_resource type="SystemFont" id="SystemFont_d2iy5"]
-
-[sub_resource type="LabelSettings" id="LabelSettings_by186"]
-font = SubResource("SystemFont_d2iy5")
-font_size = 64
-outline_size = 11
-outline_color = Color(0.197937, 0.197937, 0.197937, 1)
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_nnble"]
 normal = Vector2(0.520787, -0.853687)
@@ -434,34 +426,48 @@ script = ExtResource("4_jdyi3")
 [node name="morte1" parent="." instance=ExtResource("3_qgp70")]
 position = Vector2(-129, -196)
 
+[node name="Polygon2D2" type="Polygon2D" parent="morte1"]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-64, -24, -64, 22, 59, 22, 60, -25)
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="morte1"]
 position = Vector2(-2, 0)
 shape = SubResource("RectangleShape2D_sqltc")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="morte1"]
-position = Vector2(-1.49998, -0.5)
-scale = Vector2(0.0403333, 0.010699)
+position = Vector2(-1.49998, 3.48966)
+scale = Vector2(0.1, 0.045)
 sprite_frames = SubResource("SpriteFrames_tkumk")
 script = ExtResource("8_h7ksu")
 
+[node name="Polygon2D" type="Polygon2D" parent="morte1"]
+
 [node name="correto1" parent="." instance=ExtResource("3_dj6nm")]
 position = Vector2(131, -201)
+
+[node name="Polygon2D" type="Polygon2D" parent="correto1"]
+position = Vector2(44, 2)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-74, -21, 67, -21, 67, 25, -73, 25)
 
 [node name="sprite" type="AnimatedSprite2D" parent="correto1"]
 position = Vector2(42, 1.99999)
 scale = Vector2(0.182065, 0.0448028)
 sprite_frames = SubResource("SpriteFrames_jdyi3")
 animation = &"lista"
-frame = 2
-frame_progress = 0.496206
+frame_progress = 0.901858
 script = ExtResource("8_tkumk")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="correto1"]
-position = Vector2(-2.5, 1.5)
+position = Vector2(-4, 3)
 shape = SubResource("RectangleShape2D_nnble")
 
 [node name="player" parent="." instance=ExtResource("1_veeud")]
 position = Vector2(0, -38)
+
+[node name="player2" parent="." instance=ExtResource("1_veeud")]
+material = SubResource("ShaderMaterial_syefu")
+position = Vector2(33, -38)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(-1, -63)
@@ -486,26 +492,6 @@ stream = ExtResource("7_sqltc")
 volume_db = -4.685
 autoplay = true
 
-[node name="tela game over" type="Polygon2D" parent="."]
-visible = false
-position = Vector2(0, -104)
-color = Color(0, 0, 0, 1)
-polygon = PackedVector2Array(-220, -126, 235, -126, 235, 210, -256, 211)
-script = ExtResource("2_d2iy5")
-
-[node name="Timer" type="Timer" parent="tela game over"]
-wait_time = 3.0
-
-[node name="Label" type="Label" parent="tela game over"]
-offset_left = -216.0
-offset_top = -47.0
-offset_right = 223.0
-offset_bottom = 106.0
-text = "GAME OVER!"
-label_settings = SubResource("LabelSettings_by186")
-horizontal_alignment = 1
-vertical_alignment = 1
-
 [node name="submundo" type="StaticBody2D" parent="."]
 position = Vector2(-1, 103)
 collision_layer = 3
@@ -516,11 +502,8 @@ rotation = -0.547772
 shape = SubResource("WorldBoundaryShape2D_nnble")
 
 [connection signal="body_entered" from="muro" to="muro/Label" method="_on_muro_body_entered"]
-[connection signal="body_entered" from="muro" to="tela game over" method="_on_muro_body_entered"]
 [connection signal="body_entered" from="morte1" to="morte1/AnimatedSprite2D" method="_on_morte_1_body_entered"]
-[connection signal="body_entered" from="morte1" to="tela game over" method="_on_morte_1_body_entered"]
 [connection signal="body_entered" from="correto1" to="." method="_on_correto_1_body_entered"]
 [connection signal="body_entered" from="correto1" to="correto1" method="_on_body_entered"]
 [connection signal="body_entered" from="correto1" to="correto1/sprite" method="_on_correto_1_body_entered"]
 [connection signal="body_exited" from="correto1" to="correto1/sprite" method="_on_correto_1_body_exited"]
-[connection signal="timeout" from="tela game over/Timer" to="tela game over" method="_on_timer_timeout"]

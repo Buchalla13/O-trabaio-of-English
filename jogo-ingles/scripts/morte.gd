@@ -24,7 +24,7 @@ func _on_body_entered(body):
 	
 	print(body.name)
 	
-	if body.name=="player":
+	if body.name=="player" or body.name=='player2':
 		body.handle_danger()
 	
 	if body.name=='submundo':

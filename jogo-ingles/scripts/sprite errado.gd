@@ -1,15 +1,10 @@
 extends AnimatedSprite2D
 
-
+var tamanhoX = 0.182
 # Called when the node enters the scene tree for the first time.
 func incio():
-	frame=randi() %2
-	if frame==0:
-		scale.x=0.04
-		scale.y=0.011
-	if frame==1:
-		scale.x=0.26
-		scale.y=0.128
+	scale.x=tamanhoX
+	frame=randi() %22
 func _ready() -> void:
 	incio()
 
