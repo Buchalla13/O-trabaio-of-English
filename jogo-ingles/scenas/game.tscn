@@ -1,4 +1,4 @@
-[gd_scene load_steps=54 format=3 uid="uid://2o2akoeodvro"]
+[gd_scene load_steps=57 format=3 uid="uid://2o2akoeodvro"]
 
 [ext_resource type="PackedScene" uid="uid://dedbc4lpav0od" path="res://scenas/player.tscn" id="1_veeud"]
 [ext_resource type="Script" uid="uid://duwihygsdgtcw" path="res://scripts/game.gd" id="1_w1l1h"]
@@ -41,6 +41,7 @@
 [ext_resource type="Shader" uid="uid://c3w5tbt6l6jg1" path="res://invertido.gdshader" id="37_syefu"]
 [ext_resource type="Texture2D" uid="uid://brsjgciqdl8pa" path="res://assest/sprites/scattered-clouds-blue-sky.jpg" id="38_43i87"]
 [ext_resource type="AudioStream" uid="uid://d3httkg2kmvri" path="res://assest/youtube_OBPV0lsorwU_audio.mp3" id="38_syefu"]
+[ext_resource type="Script" uid="uid://7dl0pdet04oj" path="res://scripts/pontos.gd" id="42_0cinb"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_qv1lc"]
 animations = [{
@@ -400,6 +401,14 @@ normal = Vector2(1, 0)
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_qvojc"]
 normal = Vector2(-0.999769, 0.0215004)
 
+[sub_resource type="SystemFont" id="SystemFont_0cinb"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_xm4n3"]
+font = SubResource("SystemFont_0cinb")
+font_size = 14
+shadow_size = 2
+shadow_color = Color(0.651247, 0.290655, 0.54181, 0)
+
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_nnble"]
 normal = Vector2(0.520787, -0.853687)
 
@@ -515,6 +524,21 @@ stream = ExtResource("38_syefu")
 volume_db = -16.748
 autoplay = true
 
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color(0.0430734, 0.00570281, 0.0333759, 1)
+polygon = PackedVector2Array(126, -167, 191, -167, 191, -147, 126, -147)
+
+[node name="Label" type="Label" parent="Polygon2D"]
+offset_left = 126.0
+offset_top = -170.0
+offset_right = 191.0
+offset_bottom = -145.0
+text = "aaa"
+label_settings = SubResource("LabelSettings_xm4n3")
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("42_0cinb")
+
 [node name="submundo" type="StaticBody2D" parent="."]
 position = Vector2(-1, 103)
 collision_layer = 3
@@ -527,6 +551,7 @@ shape = SubResource("WorldBoundaryShape2D_nnble")
 [connection signal="timeout" from="AnimatedSprite2D/Timer" to="AnimatedSprite2D" method="_on_timer_timeout"]
 [connection signal="body_entered" from="muro" to="muro/Label" method="_on_muro_body_entered"]
 [connection signal="body_entered" from="morte1" to="morte1/AnimatedSprite2D" method="_on_morte_1_body_entered"]
+[connection signal="body_entered" from="morte1" to="Polygon2D/Label" method="_on_morte_1_body_entered"]
 [connection signal="body_entered" from="correto1" to="." method="_on_correto_1_body_entered"]
 [connection signal="body_entered" from="correto1" to="correto1" method="_on_body_entered"]
 [connection signal="body_entered" from="correto1" to="correto1/sprite" method="_on_correto_1_body_entered"]

@@ -1,10 +1,6 @@
-res://scenas/game.tscn
+res://scenas/player.tscn
 res://invertido.gdshader
 res://addons/eye_dropper/eye_dropper.gdshader
-res://scenas/player.tscn
-res://scripts/correto.gd
+res://scenas/game.tscn
 res://scenas/morte.tscn
-res://scripts/player.gd
-res://scripts/label.gd
-res://scripts/sprite correto.gd
-res://scripts/explosao_som.gd
+res://scripts/pontos.gd
