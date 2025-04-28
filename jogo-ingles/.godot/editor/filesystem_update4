@@ -5,3 +5,5 @@ res://scenas/player.tscn
 res://scripts/correto.gd
 res://scenas/morte.tscn
 res://scripts/player.gd
+res://scripts/label.gd
+res://scripts/sprite correto.gd

@@ -55,8 +55,6 @@ func inicio():
 		frame=23
 	if label.text==label.nomes[24]:
 		frame=24
-	if label.text==label.nomes[25]:
-		frame=25
 func _ready() -> void:
 	inicio()
 
