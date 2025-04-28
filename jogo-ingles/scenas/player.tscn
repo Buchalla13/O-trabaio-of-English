@@ -308,6 +308,7 @@ shape = SubResource("CapsuleShape2D_xe6fa")
 [node name="explosao som" type="AudioStreamPlayer2D" parent="."]
 position = Vector2(0, 3)
 stream = ExtResource("4_6ar2e")
+volume_db = 3.962
 script = ExtResource("5_ft8kh")
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

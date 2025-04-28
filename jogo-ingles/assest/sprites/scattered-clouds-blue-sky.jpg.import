@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1lgxlal23004"
-path="res://.godot/imported/ceu.jpeg-7cd20de8e66b0822c31c826b18c3e014.ctex"
+uid="uid://brsjgciqdl8pa"
+path="res://.godot/imported/scattered-clouds-blue-sky.jpg-c985b64c808526676f5cfe098c2396d0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assest/sprites/ceu.jpeg"
-dest_files=["res://.godot/imported/ceu.jpeg-7cd20de8e66b0822c31c826b18c3e014.ctex"]
+source_file="res://assest/sprites/scattered-clouds-blue-sky.jpg"
+dest_files=["res://.godot/imported/scattered-clouds-blue-sky.jpg-c985b64c808526676f5cfe098c2396d0.ctex"]
 
 [params]
 

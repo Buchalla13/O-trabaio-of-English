@@ -7,3 +7,4 @@ res://addons/eye_dropper/eye_dropper.gdshader
 res://game.gdshader
 res://invertido.gdshader
 res://scenas/player.tscn
+res://scripts/ceu.gd

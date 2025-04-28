@@ -11,7 +11,7 @@ func inicio():
 			self.position.x=120
 
 	
-	self.velocidade+=.5
+	self.velocidade+=.3
 
 func _ready() -> void:
 	inicio()

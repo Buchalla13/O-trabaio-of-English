@@ -1,16 +1,17 @@
-[gd_scene load_steps=50 format=3 uid="uid://2o2akoeodvro"]
+[gd_scene load_steps=54 format=3 uid="uid://2o2akoeodvro"]
 
-[ext_resource type="Texture2D" uid="uid://c1lgxlal23004" path="res://assest/sprites/ceu.jpeg" id="1_qvojc"]
 [ext_resource type="PackedScene" uid="uid://dedbc4lpav0od" path="res://scenas/player.tscn" id="1_veeud"]
 [ext_resource type="Script" uid="uid://duwihygsdgtcw" path="res://scripts/game.gd" id="1_w1l1h"]
 [ext_resource type="Texture2D" uid="uid://bymlux8dqcmcp" path="res://assest/sprites/world_tileset.png" id="2_m0amx"]
+[ext_resource type="Texture2D" uid="uid://bh1v88hhcgbv3" path="res://assest/sprites/ceu.jpg" id="2_syefu"]
+[ext_resource type="Texture2D" uid="uid://hwkduaj74f6x" path="res://assest/sprites/orange-watercolor-background-desktop-wallpaper-abstract-design.jpg" id="3_5o77h"]
 [ext_resource type="PackedScene" uid="uid://wpnjubv05vmf" path="res://scenas/correto.tscn" id="3_dj6nm"]
 [ext_resource type="PackedScene" uid="uid://yyjssug5oxa1" path="res://scenas/morte.tscn" id="3_qgp70"]
 [ext_resource type="Script" uid="uid://bqvyjjo6r8qbq" path="res://scripts/label.gd" id="4_jdyi3"]
+[ext_resource type="Script" uid="uid://byw471pl1n88w" path="res://scripts/ceu.gd" id="4_qv1lc"]
 [ext_resource type="Texture2D" uid="uid://b077eiifbdqm0" path="res://assest/sprites/certos/crazycat.png" id="5_24sbj"]
 [ext_resource type="Texture2D" uid="uid://q68f2e34a20b" path="res://assest/sprites/errados/dog.jpeg" id="6_24sbj"]
 [ext_resource type="Texture2D" uid="uid://cwriqxdueqg35" path="res://assest/sprites/errados/rato.jpg" id="7_f2lkw"]
-[ext_resource type="AudioStream" uid="uid://nt3hafpxurgc" path="res://assest/music/time_for_adventure.mp3" id="7_sqltc"]
 [ext_resource type="Script" uid="uid://b752qxrjp52es" path="res://scripts/sprite errado.gd" id="8_h7ksu"]
 [ext_resource type="Texture2D" uid="uid://c30c4qr1kfsjd" path="res://assest/sprites/errados/alvin.jpg" id="8_syefu"]
 [ext_resource type="Script" uid="uid://clbfyjmw70pr5" path="res://scripts/sprite correto.gd" id="8_tkumk"]
@@ -38,6 +39,25 @@
 [ext_resource type="Texture2D" uid="uid://cvdthrd5jy3fs" path="res://assest/sprites/errados/turtles.jpg" id="27_e753n"]
 [ext_resource type="Texture2D" uid="uid://4p3a40utiys2" path="res://assest/sprites/errados/urso da masha.jpg" id="28_hjda7"]
 [ext_resource type="Shader" uid="uid://c3w5tbt6l6jg1" path="res://invertido.gdshader" id="37_syefu"]
+[ext_resource type="Texture2D" uid="uid://brsjgciqdl8pa" path="res://assest/sprites/scattered-clouds-blue-sky.jpg" id="38_43i87"]
+[ext_resource type="AudioStream" uid="uid://d3httkg2kmvri" path="res://assest/youtube_OBPV0lsorwU_audio.mp3" id="38_syefu"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qv1lc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("38_43i87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_5o77h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_syefu")
+}],
+"loop": true,
+"name": &"lista",
+"speed": 1.0
+}]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qvojc"]
 texture = ExtResource("2_m0amx")
@@ -389,12 +409,16 @@ normal = Vector2(0.520787, -0.853687)
 [node name="game" type="Node2D"]
 script = ExtResource("1_w1l1h")
 
-[node name="TextureRect" type="TextureRect" parent="."]
-offset_left = -194.0
-offset_top = -172.0
-offset_right = 192.0
-offset_bottom = 47.0
-texture = ExtResource("1_qvojc")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -38)
+scale = Vector2(0.118136, 0.0894089)
+sprite_frames = SubResource("SpriteFrames_qv1lc")
+animation = &"lista"
+frame_progress = 0.373584
+script = ExtResource("4_qv1lc")
+
+[node name="Timer" type="Timer" parent="AnimatedSprite2D"]
+wait_time = 20.0
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_focng")
@@ -414,12 +438,14 @@ polygon = PackedVector2Array(-63, -24, 59, -24, 59, 24, -63, 24)
 
 [node name="Label" type="Label" parent="muro"]
 offset_left = -62.0
-offset_top = -20.0
-offset_right = 57.0
+offset_top = -24.0
+offset_right = 58.0
 offset_bottom = 22.0
+scale = Vector2(1, 1.08)
 text = "CAT"
 label_settings = SubResource("LabelSettings_sqltc")
 horizontal_alignment = 1
+autowrap_mode = 2
 clip_text = true
 script = ExtResource("4_jdyi3")
 
@@ -435,8 +461,8 @@ position = Vector2(-2, 0)
 shape = SubResource("RectangleShape2D_sqltc")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="morte1"]
-position = Vector2(-1.49998, 3.48966)
-scale = Vector2(0.1, 0.045)
+position = Vector2(-1.49998, -2.99999)
+scale = Vector2(0.1, 0.0581395)
 sprite_frames = SubResource("SpriteFrames_tkumk")
 script = ExtResource("8_h7ksu")
 
@@ -488,8 +514,8 @@ position = Vector2(-1, 0)
 shape = SubResource("WorldBoundaryShape2D_qvojc")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("7_sqltc")
-volume_db = -4.685
+stream = ExtResource("38_syefu")
+volume_db = -16.748
 autoplay = true
 
 [node name="submundo" type="StaticBody2D" parent="."]
@@ -501,6 +527,7 @@ collision_mask = 3
 rotation = -0.547772
 shape = SubResource("WorldBoundaryShape2D_nnble")
 
+[connection signal="timeout" from="AnimatedSprite2D/Timer" to="AnimatedSprite2D" method="_on_timer_timeout"]
 [connection signal="body_entered" from="muro" to="muro/Label" method="_on_muro_body_entered"]
 [connection signal="body_entered" from="morte1" to="morte1/AnimatedSprite2D" method="_on_morte_1_body_entered"]
 [connection signal="body_entered" from="correto1" to="." method="_on_correto_1_body_entered"]
