@@ -6,9 +6,10 @@ const JUMP_VELOCITY = -250.0
 @onready var timer = $Timer
 @onready var animatedSprite = $AnimatedSprite2D
 @onready var som = $"explosao som"
+@onready var timer_dash = $Timer2
+var dashing=false
 
-func _ready() -> void:
-	pass
+
 
 
 func handle_danger() -> void:
@@ -17,9 +18,10 @@ func handle_danger() -> void:
 		morto=true
 		timer.start()
 		
-
+var multi = 1
 func _physics_process(delta: float) -> void:
-
+	if multi>1:
+		multi-=.6
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -29,30 +31,43 @@ func _physics_process(delta: float) -> void:
 		if name=='player':
 			if Input.is_action_just_pressed("pulo1") and is_on_floor():
 				self.velocity.y = JUMP_VELOCITY
+			if Input.is_action_just_pressed("dash1") and dashing==false:
+				multi+=3
+				timer_dash.start()
+				animatedSprite.play("dash")
+				dashing=true
+				
 		else:
 			if Input.is_action_just_pressed("pulo2") and is_on_floor():
 				self.velocity.y = JUMP_VELOCITY
+			if Input.is_action_just_pressed("dash2") and dashing==false:
+				multi+=3
+				timer_dash.start()
+				animatedSprite.play("dash")
+				dashing=true
 
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	
 	if name=='player':
 		var direction := Input.get_axis("esquerda1", "direita1")
-
+		print(dashing)
 		if direction>0:
 			animatedSprite.flip_h= false
 		elif direction<0:
 			animatedSprite.flip_h= true
 		if morto != true:
 			if direction:
-				velocity.x = direction * SPEED
-				animatedSprite.play("corrida")	
+				velocity.x = direction * SPEED * multi
+				if dashing==false:
+					animatedSprite.play("corrida")
 			else:
 				velocity.x = move_toward(velocity.x, 0, SPEED)
 				animatedSprite.play("idle")
 		else:
 			velocity.x=0
 			collision_mask=0
+			
 	if name=='player2':
 		var direction := Input.get_axis("esquerda2", "direita2")
 
@@ -62,8 +77,9 @@ func _physics_process(delta: float) -> void:
 			animatedSprite.flip_h= true
 		if morto != true:
 			if direction:
-				velocity.x = direction * SPEED
-				animatedSprite.play("corrida")	
+				velocity.x = direction * SPEED *multi
+				if dashing==false:
+					animatedSprite.play("corrida")
 			else:
 				velocity.x = move_toward(velocity.x, 0, SPEED)
 				animatedSprite.play("idle")
@@ -76,3 +92,9 @@ func _physics_process(delta: float) -> void:
 
 func _on_timer_timeout() -> void:
 	animatedSprite.visible=false
+	
+
+
+
+func _on_timer_dash_timeout() -> void:
+	dashing=false
