@@ -7,3 +7,4 @@ res://scenas/morte.tscn
 res://scripts/player.gd
 res://scripts/label.gd
 res://scripts/sprite correto.gd
+res://scripts/explosao_som.gd
