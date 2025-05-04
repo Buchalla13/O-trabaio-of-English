@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="jogo ingles"
-run/main_scene="res://scenas/game.tscn"
+run/main_scene="uid://biyyejk3jgomd"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 

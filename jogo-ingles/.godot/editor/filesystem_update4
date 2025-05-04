@@ -1,8 +1,5 @@
-res://scenas/player.tscn
+res://scenas/game.tscn
 res://invertido.gdshader
 res://addons/eye_dropper/eye_dropper.gdshader
-res://scenas/game.tscn
-res://scenas/morte.tscn
-res://scripts/pontos.gd
-res://scripts/morte.gd
-res://scripts/ceu.gd
+res://scenas/main.tscn
+res://src/menu_controller.gd
