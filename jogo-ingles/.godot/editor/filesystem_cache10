@@ -1,13 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1746893463
-export_presets.cfg::TextFile::-1::1746407487::0::1::::<><><>0<>0<><>::
+::res://::1746896919
+export_presets.cfg::TextFile::-1::1746895189::0::1::::<><><>0<>0<><>::
 font.res::LabelSettings/LabelSettings::1855310764363026689::1721596980::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::7450242720794410119::1746393703::1746394046::1::::<><><>0<>0<>1ea2458cfd710cc9053e0373d2ade162<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-invertido.gdshader::Shader::6785400823006671826::1746893463::0::1::::<><><>0<>0<><>::
-settings.cfg::TextFile/TextFile::-1::1746394167::0::1::::<><><>0<>0<><>::
+invertido.gdshader::Shader::6785400823006671826::1746896919::0::1::::<><><>0<>0<><>::
+settings.cfg::TextFile/TextFile::-1::1746896779::0::1::::<><><>0<>0<><>::
 ::res://addons/::1746393702
-::res://addons/eye_dropper/::1746893463
-eye_dropper.gdshader::Shader::8591267949926625244::1746893463::0::1::::<><><>0<>0<><>::
+::res://addons/eye_dropper/::1746896919
+eye_dropper.gdshader::Shader::8591267949926625244::1746896919::0::1::::<><><>0<>0<><>::
 README.md::TextFile/TextFile::-1::1746393702::0::1::::<><><>0<>0<><>::
 ::res://assest/::1746893940
 youtube_OBPV0lsorwU_audio.mp3::AudioStreamMP3/AudioStreamMP3::9140188405912328446::1746393703::1746394045::1::::<><><>0<>0<>82868282cd0d9174c912aa33cff895db<>res://.godot/imported/youtube_OBPV0lsorwU_audio.mp3-23e2db8985ba3d0a485bfd15763a44c0.mp3str::
@@ -91,7 +91,7 @@ technoblade.jpg::CompressedTexture2D/CompressedTexture2D::8442188365983094015::1
 tralalero.jpg::CompressedTexture2D/CompressedTexture2D::8532938339406640450::1746393702::1746394046::1::::<><><>0<>0<>176bc11aaad66773e39b747d6067eb4a<>res://.godot/imported/tralalero.jpg-dec9513faa92e941bbd591fc572c82eb.ctex::
 turtles.jpg::CompressedTexture2D/CompressedTexture2D::3499482606601812260::1746393702::1746394046::1::::<><><>0<>0<>1d5b77e04c8cdc726915bdbbaca559af<>res://.godot/imported/turtles.jpg-723a206cd6be0e1df2f24b84651e242b.ctex::
 urso da masha.jpg::CompressedTexture2D/CompressedTexture2D::4186969950623510369::1746393702::1746394046::1::::<><><>0<>0<>cae1aa949afbd35e00a0b4b10786ee5b<>res://.godot/imported/urso da masha.jpg-827b6878b84be9dc31fd35b0a6b974bb.ctex::
-::res://assest/sprites/flat-dark/::1389212231
+::res://assest/sprites/flat-dark/::1746893963
 flatDark00.png::CompressedTexture2D::195783564569549595::1389212127::1746893963::1::::<><><>0<>0<>c72c668dfb48f6618585e2e5ef45aec5<>res://.godot/imported/flatDark00.png-038276211ef7ceeaa1aa99dce6f52f90.ctex::
 flatDark01.png::CompressedTexture2D::2209214944296910859::1389212127::1746893963::1::::<><><>0<>0<>3fc3458647abbcc671c2918bdb0882c3<>res://.godot/imported/flatDark01.png-71f2cdbf73981d58847da32badac9805.ctex::
 flatDark02.png::CompressedTexture2D::8545682048255831211::1389212127::1746893963::1::::<><><>0<>0<>d493980855060e77e8188a8ea88f0982<>res://.godot/imported/flatDark02.png-ede85e20a03c9a24c934829151d6feee.ctex::
@@ -142,7 +142,7 @@ flatDark46.png::CompressedTexture2D::5867304049057026488::1389212127::1746893963
 flatDark47.png::CompressedTexture2D::4027115993483590010::1389212127::1746893963::1::::<><><>0<>0<>af34525fd7f4118919cb88bba3e1f267<>res://.godot/imported/flatDark47.png-27cbf98cee528fa06dca7c5876f55bad.ctex::
 flatDark48.png::CompressedTexture2D::5440456980895869148::1389212127::1746893963::1::::<><><>0<>0<>433abc91c4db76ee6172b661667f3bbc<>res://.godot/imported/flatDark48.png-6b7c7a70ba0e894573566906e518af27.ctex::
 flatDark49.png::CompressedTexture2D::5492161233282186262::1389212127::1746893963::1::::<><><>0<>0<>02a4c2dd3e9de4874b6698359842dd74<>res://.godot/imported/flatDark49.png-9802fe8e0352d6961294a912b060adf6.ctex::
-::res://assest/sprites/flat-light/::1389212245
+::res://assest/sprites/flat-light/::1746893963
 flatLight00.png::CompressedTexture2D::356454205224538905::1389212169::1746893963::1::::<><><>0<>0<>bee2b0798bd32d34c41664ed1f608c92<>res://.godot/imported/flatLight00.png-47fcc47eaae916a49698b6c93b45c34c.ctex::
 flatLight01.png::CompressedTexture2D::8800282473823406573::1389212169::1746893963::1::::<><><>0<>0<>7642f3b991684194fde4b55068868ca7<>res://.godot/imported/flatLight01.png-7721115e46776830d6e1e03e8977c963.ctex::
 flatLight02.png::CompressedTexture2D::5963900078302772277::1389212169::1746893963::1::::<><><>0<>0<>558f0776e9c235edf36690b2a428eccf<>res://.godot/imported/flatLight02.png-aa3a72e55dd7f2f55c8891ffaeb8dc2f.ctex::
@@ -216,7 +216,7 @@ technoblade.jpg::CompressedTexture2D/CompressedTexture2D::9061525372914846327::1
 tralalero.jpg::CompressedTexture2D/CompressedTexture2D::3757159929664601820::1746393702::1746394046::1::::<><><>0<>0<>a1f69d7b190955906adc5f52e000c98c<>res://.godot/imported/tralalero.jpg-21e5eadc51815561f67cc5867ea57bae.ctex::
 turtles.jpg::CompressedTexture2D/CompressedTexture2D::1194689958037376717::1746393702::1746394046::1::::<><><>0<>0<>decbf75b584920e24175ea7e5f92cd23<>res://.godot/imported/turtles.jpg-aa0bbce8345dd27ef3c645fbaa5584ff.ctex::
 urso da masha.jpg::CompressedTexture2D/CompressedTexture2D::5560879727687058741::1746393702::1746394046::1::::<><><>0<>0<>6d557ed6a29d90a6e1d223f644c255a3<>res://.godot/imported/urso da masha.jpg-8cbf3cdbed2a96cccc0432f5d8dd5991.ctex::
-::res://assest/sprites/line-dark/::1389212533
+::res://assest/sprites/line-dark/::1746893963
 lineDark00.png::CompressedTexture2D::8110153011769688083::1389212502::1746893963::1::::<><><>0<>0<>3848502371fa9f556ba58f3d0c2d089a<>res://.godot/imported/lineDark00.png-390d9c46026165f511b317013938f6a3.ctex::
 lineDark01.png::CompressedTexture2D::120781756494121775::1389212502::1746893963::1::::<><><>0<>0<>1c24564fb82308075faa0fc6073845fb<>res://.godot/imported/lineDark01.png-a0bd5e86a725f94f105ffaa920f9d178.ctex::
 lineDark02.png::CompressedTexture2D::2395356976927619459::1389212502::1746893963::1::::<><><>0<>0<>0d3feaf5a3529c7256c52d2919421cf4<>res://.godot/imported/lineDark02.png-1b3a4e8322d943f448c93b6d1c42c57b.ctex::
@@ -267,7 +267,7 @@ lineDark46.png::CompressedTexture2D::3605177601274366724::1389212502::1746893963
 lineDark47.png::CompressedTexture2D::6766278175772514913::1389212502::1746893963::1::::<><><>0<>0<>384132c004d6ddea898f9cda72363a79<>res://.godot/imported/lineDark47.png-d39eb4fdff3d014671b512ddc3c28406.ctex::
 lineDark48.png::CompressedTexture2D::3310007637517799433::1389212502::1746893963::1::::<><><>0<>0<>8dd98fb88fc45d8638fb67ebfae1dd28<>res://.godot/imported/lineDark48.png-5df407b6afad35ffd49b5049315be93f.ctex::
 lineDark49.png::CompressedTexture2D::4827009547900825981::1389212502::1746893963::1::::<><><>0<>0<>5d14208c5d49b346a45a8e67fa902553<>res://.godot/imported/lineDark49.png-99ad75cd6a1ba01e55c03442d76f7e06.ctex::
-::res://assest/sprites/line-light/::1389212958
+::res://assest/sprites/line-light/::1746893963
 lineLight00.png::CompressedTexture2D::9204401302896636934::1389212929::1746893963::1::::<><><>0<>0<>3ee936719394c2eec2d408945e36f65f<>res://.godot/imported/lineLight00.png-22105ff111c9688c73f4ac3c148755a3.ctex::
 lineLight01.png::CompressedTexture2D::6956009169800979843::1389212929::1746893963::1::::<><><>0<>0<>9c49dbfc0f6fb7bf593663710e247324<>res://.godot/imported/lineLight01.png-d9c7904e9acb1aed4a56c070d81e2427.ctex::
 lineLight02.png::CompressedTexture2D::1793717159352946527::1389212929::1746893963::1::::<><><>0<>0<>32c1a8524c8ac8afcf4588d82e5740b8<>res://.godot/imported/lineLight02.png-432df9b21a5038995046409ec5a46c3c.ctex::
@@ -318,7 +318,7 @@ lineLight46.png::CompressedTexture2D::5067023847221923661::1389212930::174689396
 lineLight47.png::CompressedTexture2D::6088082140665722816::1389212930::1746893963::1::::<><><>0<>0<>b8233320edd71854457518ff1fe7a98f<>res://.godot/imported/lineLight47.png-d718fd2feac27f6de14cb597e3d0a533.ctex::
 lineLight48.png::CompressedTexture2D::6893680445331884249::1389212930::1746893963::1::::<><><>0<>0<>84a0954df0409ed69f0a03c0ac90a8aa<>res://.godot/imported/lineLight48.png-bf44ea61f4430105fc0c465cc2ea08a1.ctex::
 lineLight49.png::CompressedTexture2D::7825836841030790370::1389212929::1746893963::1::::<><><>0<>0<>1497f54e0e4c528de376dbc6533c7522<>res://.godot/imported/lineLight49.png-f04f383f30499a229bc24872656a87bd.ctex::
-::res://assest/sprites/shaded-dark/::1389212022
+::res://assest/sprites/shaded-dark/::1746893962
 shadedDark00.png::CompressedTexture2D::7385767693697280150::1389211863::1746893962::1::::<><><>0<>0<>95358475b14761d49ce5229bc1e16a09<>res://.godot/imported/shadedDark00.png-707c9ce76c4cdac5409b8c5bbbdad091.ctex::
 shadedDark01.png::CompressedTexture2D::3012484609182176160::1389211863::1746893962::1::::<><><>0<>0<>4ddd5d9a17b1c496caee21d396234db8<>res://.godot/imported/shadedDark01.png-a20c98744c0bfebe3441fc298788894c.ctex::
 shadedDark02.png::CompressedTexture2D::6660013034512591221::1389211863::1746893962::1::::<><><>0<>0<>2a741b06347ca0628c4a6ed88f07e07a<>res://.godot/imported/shadedDark02.png-4e771a01a4fc5c146a85d4d31d3e1125.ctex::
@@ -369,7 +369,7 @@ shadedDark46.png::CompressedTexture2D::2254205063796405907::1389211863::17468939
 shadedDark47.png::CompressedTexture2D::1878544318580648195::1389211863::1746893962::1::::<><><>0<>0<>ef6a3e8af8b1d4084b1810ec11eae053<>res://.godot/imported/shadedDark47.png-b72bcea40c29b61092b54819c0ff1156.ctex::
 shadedDark48.png::CompressedTexture2D::7627820285724037498::1389211863::1746893962::1::::<><><>0<>0<>aa508c1bc86287bcf4d9a941ac39dec5<>res://.godot/imported/shadedDark48.png-e9088e01c861c46ad5e4b19e5ae60719.ctex::
 shadedDark49.png::CompressedTexture2D::6207940684522863682::1389211863::1746893962::1::::<><><>0<>0<>f11edd1d4b7cab9202d3228c97926504<>res://.godot/imported/shadedDark49.png-a1d526a1438b55ac421ad362d7ad98d3.ctex::
-::res://assest/sprites/shaded-light/::1389212024
+::res://assest/sprites/shaded-light/::1746893962
 shadedLight00.png::CompressedTexture2D::4620769370734523779::1389211946::1746893962::1::::<><><>0<>0<>79d27465749a4b37e669b0603e6377f6<>res://.godot/imported/shadedLight00.png-cc4706a64387f404e09aabd12aac37ae.ctex::
 shadedLight01.png::CompressedTexture2D::8216107149866735620::1389211946::1746893962::1::::<><><>0<>0<>0575dd8892d30320651ed6315bc4909e<>res://.godot/imported/shadedLight01.png-82a4231a9af7f383e437ad7524f24996.ctex::
 shadedLight02.png::CompressedTexture2D::2478478200208598384::1389211946::1746893962::1::::<><><>0<>0<>8152cb0d4c5f8b477cecda898062334d<>res://.godot/imported/shadedLight02.png-34429bdae4fb4036e4a446a0450e779e.ctex::
@@ -420,7 +420,7 @@ shadedLight46.png::CompressedTexture2D::962114521642091106::1389211946::17468939
 shadedLight47.png::CompressedTexture2D::2787744474049591355::1389211946::1746893962::1::::<><><>0<>0<>4c970e0eb750d32b0e5e0d252a0518c1<>res://.godot/imported/shadedLight47.png-9adb35775d480298e7a4bb5ad8a56477.ctex::
 shadedLight48.png::CompressedTexture2D::403888260545255619::1389211946::1746893962::1::::<><><>0<>0<>47d4a1fb76c4eaab48a4b586e0fe7612<>res://.godot/imported/shadedLight48.png-b048137d6c9fea923ddf6af6a39ded66.ctex::
 shadedLight49.png::CompressedTexture2D::8745616219667221625::1389211946::1746893962::1::::<><><>0<>0<>6e1773e0457a28421b024b4bbb21d26a<>res://.godot/imported/shadedLight49.png-a38de40aa734ab0c5df7c0154559606c.ctex::
-::res://assest/sprites/transparent-dark/::1389212263
+::res://assest/sprites/transparent-dark/::1746893963
 transparentDark00.png::CompressedTexture2D::5082271150492344411::1389212180::1746893963::1::::<><><>0<>0<>99aa5d080317d3f0010ed3fdcaff7b87<>res://.godot/imported/transparentDark00.png-f2b0f03cca44d45b45eb92a5cc59e980.ctex::
 transparentDark01.png::CompressedTexture2D::8224324839949506504::1389212180::1746893963::1::::<><><>0<>0<>5e7aa0eb6e9ef49083cc4defbaabf9a5<>res://.godot/imported/transparentDark01.png-b7ebd122dad9f753a1d1380116dbb95b.ctex::
 transparentDark02.png::CompressedTexture2D::1974245334509446245::1389212180::1746893963::1::::<><><>0<>0<>c34d537800b80cc898b9e1f358baaf81<>res://.godot/imported/transparentDark02.png-59335313e0f13009e3880d7144faf343.ctex::
@@ -471,7 +471,7 @@ transparentDark46.png::CompressedTexture2D::6152553694660674393::1389212180::174
 transparentDark47.png::CompressedTexture2D::8763770328867278956::1389212180::1746893963::1::::<><><>0<>0<>9701de6fa813a226ce39474a54a80b76<>res://.godot/imported/transparentDark47.png-66e44a5c0c03076af119ef46408ff9f2.ctex::
 transparentDark48.png::CompressedTexture2D::7806571231776592383::1389212180::1746893963::1::::<><><>0<>0<>ddafc6bc96a96931f8596b76374cd25e<>res://.godot/imported/transparentDark48.png-71c6506f529ae9f4415e3efb9ea7bb4f.ctex::
 transparentDark49.png::CompressedTexture2D::792600464752799948::1389212180::1746893963::1::::<><><>0<>0<>2f12f70c10241f87eb12745a4ea0a7af<>res://.godot/imported/transparentDark49.png-4bb139422a6efcf694b4df5b5e59f192.ctex::
-::res://assest/sprites/transparent-light/::1389212280
+::res://assest/sprites/transparent-light/::1746893963
 transparentLight00.png::CompressedTexture2D::1105385812530583701::1389212203::1746893963::1::::<><><>0<>0<>ad7c543f0832573c1180163006647435<>res://.godot/imported/transparentLight00.png-4ede27e38c755bd59baabcf5de020eb6.ctex::
 transparentLight01.png::CompressedTexture2D::5498325433168258555::1389212203::1746893963::1::::<><><>0<>0<>df3a9525b419b8277b180307f74a43ca<>res://.godot/imported/transparentLight01.png-9b2aad634988bf73707ab51ad054e458.ctex::
 transparentLight02.png::CompressedTexture2D::3923330777632602555::1389212203::1746893963::1::::<><><>0<>0<>b6ca8a50af0227c4f8a7b1e5ea85e517<>res://.godot/imported/transparentLight02.png-f03f5b8aa65452bb0a9f85fa6fa05f07.ctex::
@@ -522,17 +522,17 @@ transparentLight46.png::CompressedTexture2D::4720546623691383111::1389212203::17
 transparentLight47.png::CompressedTexture2D::3001082796587239806::1389212203::1746893963::1::::<><><>0<>0<>a14ef6cdb07bb0e71ae24d4c5db02a3a<>res://.godot/imported/transparentLight47.png-e366e2ac0396c92f4e68bb1c64427a38.ctex::
 transparentLight48.png::CompressedTexture2D::9185992415357844192::1389212203::1746893963::1::::<><><>0<>0<>3a012cd3810e8a096d686b96f7de464d<>res://.godot/imported/transparentLight48.png-27107b0e8c8c6c0b4c3ecdbffd5e3544.ctex::
 transparentLight49.png::CompressedTexture2D::3861263117439724624::1389212203::1746893963::1::::<><><>0<>0<>ca03c0dd71bed09e01fe113cbff399c1<>res://.godot/imported/transparentLight49.png-4250e2fff02e2b629296fd289ce3ac6f.ctex::
-::res://res/::1746394047
-00000.png::CompressedTexture2D/CompressedTexture2D::7068574485404612418::1746383800::1746394047::1::::<><><>0<>0<>2806ee4ec4b10075497a7d11c3be4380<>res://.godot/imported/00000.png-7baa699ce59db30a6f325383b261ed0f.ctex::
-::res://scenas/::1746893833
+::res://res/::1746898705
+00000.png::CompressedTexture2D/CompressedTexture2D::7068574485404612418::1746898603::1746898708::1::::<><><>0<>0<>2806ee4ec4b10075497a7d11c3be4380<>res://.godot/imported/00000.png-7baa699ce59db30a6f325383b261ed0f.ctex::
+::res://scenas/::1746896919
 animated_sprite_2d.gd::GDScript/GDScript::5547329961467314852::1746393703::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
 correto.tscn::PackedScene/PackedScene::1575926672399280593::1746393703::0::1::::<><><>0<>0<><>::uid://7iq5nnxn5gaq::::res://scripts/correto.gd
-game.tscn::PackedScene::1925639972649762204::1746893463::0::1::::<><><>0<>0<><>::uid://dedbc4lpav0od::::res://scenas/player.tscn<>uid://duwihygsdgtcw::::res://scripts/game.gd<>uid://bymlux8dqcmcp::::res://assest/sprites/world_tileset.png<>uid://bh1v88hhcgbv3::::res://assest/sprites/ceu.jpg<>uid://hwkduaj74f6x::::res://assest/sprites/orange-watercolor-background-desktop-wallpaper-abstract-design.jpg<>uid://wpnjubv05vmf::::res://scenas/correto.tscn<>uid://yyjssug5oxa1::::res://scenas/morte.tscn<>uid://bqvyjjo6r8qbq::::res://scripts/label.gd<>uid://byw471pl1n88w::::res://scripts/ceu.gd<>uid://c3t4wlmc0iqp::::res://assest/sprites/certos/crazycat.png<>uid://b6umt60vgev6h::::res://assest/sprites/errados/dog.jpeg<>uid://0u7a16rap8dj::::res://assest/sprites/errados/rato.jpg<>uid://b752qxrjp52es::::res://scripts/sprite errado.gd<>uid://d08w5eil7cgyx::::res://assest/sprites/errados/alvin.jpg<>uid://clbfyjmw70pr5::::res://scripts/sprite correto.gd<>uid://f1e3p2qyw3km::::res://assest/sprites/errados/atacadão telhas.jpg<>uid://oneaap35inwp::::res://assest/sprites/certos/tiger.jpg<>uid://4v2e43cv0tf2::::res://assest/sprites/certos/ronaldinho.jpeg<>uid://c2bvxs1qkcp0v::::res://assest/sprites/errados/blu_bird.jpg<>uid://f46bfd1ffrb0::::res://assest/sprites/errados/bombardilo crocodilo.jpg<>uid://cq86cu1uh66ya::::res://assest/sprites/errados/burro do sherek.jpg<>uid://cac7tppctovcd::::res://assest/sprites/certos/fulecoKKKKKKKKKK.jpg<>uid://ihacec1ymmuh::::res://assest/sprites/errados/cavaloooo.jpg<>uid://d0emflswofyau::::res://assest/sprites/errados/dory.jpg<>uid://lma4ou351jqq::::res://assest/sprites/errados/el pablo hetero top.jpg<>uid://cvkbqdvfqehka::::res://assest/sprites/errados/ferdinando.jpg<>uid://cq5tg3mkfijni::::res://assest/sprites/errados/goat.jpg<>uid://cctiqa4hr6j5f::::res://assest/sprites/errados/lhama.jpg<>uid://c0iijcopxf276::::res://assest/sprites/errados/mirilo monkey.jpg<>uid://cl6vfiool3f23::::res://assest/sprites/errados/mosquito.jpg<>uid://0fs3kc14ovcb::::res://assest/sprites/errados/pato donald.jpg<>uid://djlga40gfuiwj::::res://assest/sprites/errados/perry_platypus.webp<>uid://drhyu52tohbk2::::res://assest/sprites/errados/simba.jpg<>uid://v0w6q3ixqmt4::::res://assest/sprites/errados/smilinguido.png<>uid://dsjpux75v4m36::::res://assest/sprites/errados/technoblade.jpg<>uid://dttoiooo27ptq::::res://assest/sprites/errados/tralalero.jpg<>uid://bp4f75e15oq7u::::res://assest/sprites/errados/turtles.jpg<>uid://b0wg1vtj6equj::::res://assest/sprites/errados/urso da masha.jpg<>uid://c3w5tbt6l6jg1::::res://invertido.gdshader<>uid://brsjgciqdl8pa::::res://assest/sprites/scattered-clouds-blue-sky.jpg<>uid://d3httkg2kmvri::::res://assest/youtube_OBPV0lsorwU_audio.mp3<>uid://7dl0pdet04oj::::res://scripts/pontos.gd
-main.tscn::PackedScene::2998941339339476243::1746893463::0::1::::<><><>0<>0<><>::uid://c43tlovawmqhy::::res://src/menu_controller.gd<>uid://c7ycnhy7dx87w::::res://res/00000.png<>uid://1oyxx8ys1m6d::::res://font.res
+game.tscn::PackedScene::1925639972649762204::1746896919::0::1::::<><><>0<>0<><>::uid://dedbc4lpav0od::::res://scenas/player.tscn<>uid://duwihygsdgtcw::::res://scripts/game.gd<>uid://bymlux8dqcmcp::::res://assest/sprites/world_tileset.png<>uid://bh1v88hhcgbv3::::res://assest/sprites/ceu.jpg<>uid://hwkduaj74f6x::::res://assest/sprites/orange-watercolor-background-desktop-wallpaper-abstract-design.jpg<>uid://wpnjubv05vmf::::res://scenas/correto.tscn<>uid://yyjssug5oxa1::::res://scenas/morte.tscn<>uid://bqvyjjo6r8qbq::::res://scripts/label.gd<>uid://byw471pl1n88w::::res://scripts/ceu.gd<>uid://c3t4wlmc0iqp::::res://assest/sprites/certos/crazycat.png<>uid://b6umt60vgev6h::::res://assest/sprites/errados/dog.jpeg<>uid://0u7a16rap8dj::::res://assest/sprites/errados/rato.jpg<>uid://b752qxrjp52es::::res://scripts/sprite errado.gd<>uid://d08w5eil7cgyx::::res://assest/sprites/errados/alvin.jpg<>uid://clbfyjmw70pr5::::res://scripts/sprite correto.gd<>uid://f1e3p2qyw3km::::res://assest/sprites/errados/atacadão telhas.jpg<>uid://oneaap35inwp::::res://assest/sprites/certos/tiger.jpg<>uid://4v2e43cv0tf2::::res://assest/sprites/certos/ronaldinho.jpeg<>uid://c2bvxs1qkcp0v::::res://assest/sprites/errados/blu_bird.jpg<>uid://f46bfd1ffrb0::::res://assest/sprites/errados/bombardilo crocodilo.jpg<>uid://cq86cu1uh66ya::::res://assest/sprites/errados/burro do sherek.jpg<>uid://cac7tppctovcd::::res://assest/sprites/certos/fulecoKKKKKKKKKK.jpg<>uid://ihacec1ymmuh::::res://assest/sprites/errados/cavaloooo.jpg<>uid://d0emflswofyau::::res://assest/sprites/errados/dory.jpg<>uid://lma4ou351jqq::::res://assest/sprites/errados/el pablo hetero top.jpg<>uid://cvkbqdvfqehka::::res://assest/sprites/errados/ferdinando.jpg<>uid://cq5tg3mkfijni::::res://assest/sprites/errados/goat.jpg<>uid://cctiqa4hr6j5f::::res://assest/sprites/errados/lhama.jpg<>uid://c0iijcopxf276::::res://assest/sprites/errados/mirilo monkey.jpg<>uid://cl6vfiool3f23::::res://assest/sprites/errados/mosquito.jpg<>uid://0fs3kc14ovcb::::res://assest/sprites/errados/pato donald.jpg<>uid://djlga40gfuiwj::::res://assest/sprites/errados/perry_platypus.webp<>uid://drhyu52tohbk2::::res://assest/sprites/errados/simba.jpg<>uid://v0w6q3ixqmt4::::res://assest/sprites/errados/smilinguido.png<>uid://dsjpux75v4m36::::res://assest/sprites/errados/technoblade.jpg<>uid://dttoiooo27ptq::::res://assest/sprites/errados/tralalero.jpg<>uid://bp4f75e15oq7u::::res://assest/sprites/errados/turtles.jpg<>uid://b0wg1vtj6equj::::res://assest/sprites/errados/urso da masha.jpg<>uid://c3w5tbt6l6jg1::::res://invertido.gdshader<>uid://brsjgciqdl8pa::::res://assest/sprites/scattered-clouds-blue-sky.jpg<>uid://d3httkg2kmvri::::res://assest/youtube_OBPV0lsorwU_audio.mp3<>uid://7dl0pdet04oj::::res://scripts/pontos.gd<>uid://cq01r1vso5ss5::::res://scripts/control.gd<>uid://or5qsedqdx6u::::res://scenas/touch.tscn
+main.tscn::PackedScene::2998941339339476243::1746894825::0::1::::<><><>0<>0<><>::uid://c43tlovawmqhy::::res://src/menu_controller.gd<>uid://c7ycnhy7dx87w::::res://res/00000.png<>uid://1oyxx8ys1m6d::::res://font.res
 morte.tscn::PackedScene/PackedScene::1734656887265068550::1746393703::0::1::::<><><>0<>0<><>::uid://flr4q102n06m::::res://scripts/morte.gd
 player.tscn::PackedScene/PackedScene::7446276388326577163::1746393703::0::1::::<><><>0<>0<><>::uid://dmh7wydmxbosf::::res://scripts/player.gd<>uid://tubs24r14ho7::::res://assest/sprites/knight.png<>uid://4jsqxmkcx14j::::res://assest/sprites/explosão.png<>uid://dl5x8uy35mmlw::::res://assest/sprites/knight - Copia.png<>uid://bjg1cuv7swhty::::res://assest/sounds/explosao.mp3<>uid://uqyv33p8ib75::::res://scripts/explosao_som.gd
-touch.tscn::PackedScene::1019589266994295302::1746893833::0::1::::<><><>0<>0<><>::
-::res://scripts/::1746393703
+touch.tscn::PackedScene::1019589266994295302::1746894826::0::1::::<><><>0<>0<><>::uid://kymr5w7rp6vk::::res://assest/sprites/shaded-dark/shadedDark24.png<>uid://rmw0ldvfxex::::res://assest/sprites/shaded-dark/shadedDark25.png<>uid://b8jo2bc56gn5v::::res://assest/sprites/shaded-dark/shadedDark45.png<>uid://cupf410syxncs::::res://assest/sprites/shaded-dark/shadedDark49.png
+::res://scripts/::1746894797
 audio_stream_player.gd::GDScript/GDScript::8529098336227474654::1746393703::0::1::::<>AudioStreamPlayer<><>0<>0<><>::
 ceu.gd::GDScript/GDScript::4118188569104632100::1746393703::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
 correto.gd::GDScript/GDScript::2263583768100507272::1746393703::0::1::::<>Area2D<><>0<>0<><>::
@@ -540,8 +540,9 @@ explosao_som.gd::GDScript/GDScript::1438303140958276882::1746393703::0::1::::<>A
 game.gd::GDScript/GDScript::8608954741580066374::1746393703::0::1::::<>Node2D<><>0<>0<><>::
 label.gd::GDScript/GDScript::3554267890478358250::1746393703::0::1::::<>Label<><>0<>0<><>::
 morte.gd::GDScript/GDScript::374737232096116038::1746393703::0::1::::<>Area2D<><>0<>0<><>::
-player.gd::GDScript/GDScript::8017962316019378393::1746393703::0::1::::jogador<>CharacterBody2D<><>0<>0<><>::
+player.gd::GDScript::8017962316019378393::1746894516::0::1::::jogador<>CharacterBody2D<><>0<>0<><>::
 pontos.gd::GDScript/GDScript::2252949454140083217::1746393703::0::1::::<>Label<><>0<>0<><>::
+control.gd::GDScript::5949082708640269338::1746894797::0::1::::<>Control<><>0<>0<><>::
 sprite correto.gd::GDScript/GDScript::5547329961467314852::1746393703::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
 sprite errado.gd::GDScript/GDScript::4696064178968006214::1746393703::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
 sprite.gd::GDScript/GDScript::5838149593036987288::1746393703::0::1::::<>RefCounted<><>0<>0<><>::
