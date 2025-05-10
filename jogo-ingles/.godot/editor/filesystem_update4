@@ -1,0 +1,7 @@
+res://scenas/game.tscn
+res://invertido.gdshader
+res://addons/eye_dropper/eye_dropper.gdshader
+res://scenas/main.tscn
+res://scenas/touch.tscn
+res://scripts/control.gd
+res://scripts/player.gd

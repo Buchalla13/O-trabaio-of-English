@@ -51,7 +51,6 @@ func _physics_process(delta: float) -> void:
 	
 	if name=='player':
 		var direction := Input.get_axis("esquerda1", "direita1")
-		print(dashing)
 		if direction>0:
 			animatedSprite.flip_h= false
 		elif direction<0:

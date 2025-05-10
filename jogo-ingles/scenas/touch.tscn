@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://or5qsedqdx6u"]
+
+[ext_resource type="Texture2D" uid="uid://kymr5w7rp6vk" path="res://assest/sprites/shaded-dark/shadedDark24.png" id="1_on340"]
+[ext_resource type="Texture2D" uid="uid://rmw0ldvfxex" path="res://assest/sprites/shaded-dark/shadedDark25.png" id="2_wksku"]
+[ext_resource type="Texture2D" uid="uid://b8jo2bc56gn5v" path="res://assest/sprites/shaded-dark/shadedDark45.png" id="3_kg1ef"]
+[ext_resource type="Texture2D" uid="uid://cupf410syxncs" path="res://assest/sprites/shaded-dark/shadedDark49.png" id="4_wksku"]
+
+[node name="Touch" type="CanvasLayer"]
+
+[node name="esquerda" type="TouchScreenButton" parent="."]
+position = Vector2(53, 500)
+scale = Vector2(1.25, 1.25)
+texture_normal = ExtResource("1_on340")
+action = "esquerda1"
+
+[node name="direita" type="TouchScreenButton" parent="."]
+position = Vector2(283, 500)
+scale = Vector2(1.25, 1.25)
+texture_normal = ExtResource("2_wksku")
+action = "direita1"
+
+[node name="pulo" type="TouchScreenButton" parent="."]
+position = Vector2(850, 500)
+scale = Vector2(1.25, 1.25)
+texture_normal = ExtResource("3_kg1ef")
+action = "pulo1"
+
+[node name="dash" type="TouchScreenButton" parent="."]
+position = Vector2(1000, 500)
+scale = Vector2(1.25, 1.25)
+texture_normal = ExtResource("4_wksku")
+action = "dash1"
